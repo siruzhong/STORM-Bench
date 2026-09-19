@@ -12,3 +12,5 @@ python scripts/eval/run_storm_models.py --models all --protocols online \
 ```
 
 The registry in `scripts/eval/storm_model_registry.py` contains the 14 checkpoint names. `scripts/eval/storm_model_adapters.py` provides the family-specific loaders and `scripts/eval/storm_streaming.py` enforces the 1 FPS causal frame protocol. GPU runtimes and model weights are intentionally not vendored.
+
+Install dependencies with `pip install -r requirements-eval.txt` after installing a CUDA-compatible PyTorch build. Place checkpoints below `ckpt/` using the names in the registry. Supply one released STORM manifest and its matching video directory through `--gt-file` and `--video-root`; the runner records manifest hashes and rejects mismatched predictions. Use `--protocols offline,online` to reproduce both reported protocol conditions. Outputs are written to `outputs/`, which is ignored by Git.
