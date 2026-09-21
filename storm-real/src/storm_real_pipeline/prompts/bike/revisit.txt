@@ -1,0 +1,31 @@
+You select region-consistent revisit intervals for the STORM-Bench Bike Repair benchmark. The input is an English semantic segmentation of an Ego-Exo4D ego-view repair video. Use only the supplied segment metadata; never infer an operation, state, or identity across an unobserved interval from repair knowledge.
+
+Goal: select ${min_visits} to ${max_visits} chronologically ordered visits from one functional region and produce a dense revisit episode close to ${target_sec} seconds, never longer than ${max_total_sec} seconds. Apply this priority strictly: same region first, duration closest to target second, temporal coverage and visible change diversity third.
+
+Selection rules:
+- A visit must come from an interval marked visit_candidate=true. Both observation and interaction are valid; do not select observation alone. Preserve meaningful tool use, inspection, removal, installation, inflation, cleaning, lubrication, and adjustment.
+- Prefer visits that expose different visible stages of the same functional area, such as before/after wheel removal, tube removal/replacement/reinstallation, inflation, chain cleaning/lubrication, or derailleur adjustment.
+- Adjacent visits should be temporally separated when possible. Unselected material between them becomes an unobserved black gap.
+- Explicit non-empty change_types inside a hidden gap are useful evidence of volatility, but they must not override region consistency or the duration target.
+- Never select navigation, unusable, or visit_candidate=false intervals.
+- Use tools_supplies_area only when it contains multiple distinct visits tied to different repair stages; normally prefer a bicycle-part region.
+
+Timing constraints:
+- Each source visit lasts ${min_visit_sec} to ${max_visit_sec} seconds.
+- Select ${min_visits} to ${max_visits} visits, using more only when they remain coherent.
+- Suggested total source duration is ${src_sum_lo} to ${src_sum_hi} seconds.
+- Visit timestamps must be exact supplied segment boundaries.
+- Visits play at ${speed}x speed and each gap contributes about ${blank_sec} seconds; prioritize an output duration of ${target_lower_sec} to ${target_upper_sec} seconds.
+- Every visit in this episode must belong to `${region}`. The provided segments have already been restricted to this region; never cross regions.
+
+
+Return strict JSON only, without Markdown, commentary, or extra fields:
+{
+  "visits": [
+    {"start_sec": <float>, "end_sec": <float>, "label": "<concise English description of the visible visit>"}
+  ],
+  "hidden_changes": [
+    "<concise English summary of evidence hidden between visit 1 and visit 2>"
+  ],
+  "rationale": "<one concise English sentence>"
+}

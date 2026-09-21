@@ -1,0 +1,46 @@
+You construct temporally grounded multiple-choice QA for the STORM-Bench Bike Repair long-term memory benchmark. You receive chronologically ordered, second-level timestamped frames from one complete ego-view revisit episode. The episode concatenates visible visits to the same functional bicycle area, separated by short black gaps. A black gap means an unobserved repair interval; it is not evidence that the room darkened, an object disappeared, or a repair event occurred.
+
+Create English questions that require the visible episode and cannot be answered from generic bicycle-repair knowledge. Use ego-view evidence only. Never read or assume the generation plan, use an exocentric view, or complete an action hidden by a black gap or sampling interval.
+
+Question types:
+- factual_retrieval: retrieve a tool, part, supply, attribute, location, or simple relation from an earlier visible interval, preferably after it has left the current view.
+- current_state: integrate all visible history up to query_time to determine a part's current location, installation state, mechanical state, attribute, or relation. Place the query after at least one visible state change.
+- state_change: ask about a visibly supported installation/removal, loosening/tightening, inflation/deflation, cleaning/lubrication, adjustment, or instance replacement. Distinguish a state transition from its process. If only before and after states are visible, ask what changed; ask how it changed only when the action itself is directly sampled. A known item must cite separate before and after evidence.
+- object_tracking: determine whether observations across visits show the same wheel, tube, tool, container, or part instance. Mark known only with persistent, visible, discriminative identity cues. Category, color, and repair convention alone are insufficient. Use uncertain across a gap, loss of view, possible replacement, or unresolved similar candidates.
+- temporal_reasoning: determine the visible order, first, last, or kth occurrence of at least two repair events. The answer must not follow merely from a conventional repair sequence.
+- history_aggregation: count, deduplicate, accumulate, or analyze co-occurrence in the visible history up to query_time. State the counting unit explicitly and count only units shown in the input frames.
+
+Return a strict JSON array. Every item must follow this schema:
+{
+  "id": "assigned later by the program",
+  "episode_id": "the supplied episode_id",
+  "query_time": 30.0,
+  "question_type": "one of the six fixed values",
+  "question_subtype": "concise English snake_case",
+  "video_evidence": "concise visible evidence with no speculation",
+  "question": "an English question",
+  "options": ["option A", "option B", "option C", "option D"],
+  "answer_index": 0,
+  "evidence_spans": [[12.0, 14.0]],
+  "diagnostics": {
+    "epistemic_status": "known|uncertain",
+    "uncertainty_sources": []
+  },
+  "diagnostic_rationale": {
+    "volatility": "why the state or history is temporally demanding",
+    "uncertainty": "why visible evidence supports known or uncertain"
+  }
+}
+
+Hard constraints:
+1. Provide exactly four distinct options. answer_index must be 0 to 3. Distribute correct answers across A/B/C/D; options must be grammatically parallel and similar in semantic granularity and length, so wording does not reveal the answer.
+2. query_time and every evidence boundary must exactly match a supplied frame timestamp. Every evidence span must end no later than query_time.
+3. Use the shortest sufficient evidence. Represent one-frame evidence as [t,t]. Prefer separate point evidence for before and after states. Use [start,end] only when every frame in a short continuous interval supports the same visible process; never substitute a broad interval for precise evidence.
+4. known means visible evidence supports exactly one option and requires uncertainty_sources=[]. uncertain means the evidence cannot determine a unique answer; its correct option must be exactly "Cannot be determined" and it must include at least one legal uncertainty source. Keep all four options concise and type-appropriate.
+5. uncertainty_sources may contain only missing_observation, partial_observation, low_visual_quality, ambiguous_evidence, ambiguous_attribute, or multiple_candidates.
+6. history_aggregation must name a visible counting unit, such as distinct visible operation segments, sampled frames containing the target, or distinguishable tool/part instances. Consecutive frames of one operation count as one visible segment. Never infer action counts inside gaps.
+7. Head or camera motion is not part motion. Tool contact does not prove completion of loosening, tightening, installation, removal, or repair. A black gap is not a state change.
+8. Per episode, generate at least 8 known and 2 uncertain questions, with no more than 2 questions of any question_type. While the uncertain quota is unmet, every response must contain at least one uncertain item. Never invent known evidence to fill a quota.
+9. An uncertain question may target scenario-relevant information hidden by a gap, partially recorded, or not uniquely identifiable. Do not present absent content as an observed fact.
+10. The input is sparse observation, not continuous video. Do not claim a complete process, causal link, or identity trajectory unless directly supported by before, during, and after samples.
+11. Return JSON only, without explanations, Markdown, or extra fields.

@@ -1,6 +1,8 @@
 # STORM-Bench
 
-This repository is the code release for the STORM-Bench paper. It contains the public evaluation path for the six reported subsets: Cook (`storm_real`), Bike, Health, Music, Sports, and Sim (`storm_sim`). It excludes training, method development, paper figures, and frozen result directories. Dataset media, annotations, and model checkpoints are supplied separately.
+This repository is the code release for the STORM-Bench paper. It contains the real-video data construction pipeline and the public evaluation path for the six reported subsets: Cook (`storm_real`), Bike, Health, Music, Sports, and Sim (`storm_sim`). It excludes training, method development, paper figures, and frozen result directories. Dataset media, annotations, and model checkpoints are supplied separately.
+
+The [real-video construction pipeline](storm-real/README.md) in `storm-real/` converts long egocentric videos into same-region revisit episodes and temporally grounded QA. It includes dedicated English prompts for Cook, Bike, Health, Music, and Sports, along with installation instructions and offline tests.
 
 Run the 14-checkpoint evaluation with:
 
