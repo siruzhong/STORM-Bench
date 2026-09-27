@@ -1,0 +1,211 @@
+{
+  "storm_bike": {
+    "change_intensity": {
+      "1": 64,
+      "2": 151,
+      "3": 156,
+      "4": 151,
+      "5": 149,
+      "6": 70,
+      "7": 32,
+      "8": 13
+    },
+    "dropped_fields": {},
+    "known": 638,
+    "label": "Bike (Ego-Exo4D)",
+    "num_episodes": 61,
+    "num_questions": 786,
+    "question_types": {
+      "current_state": 142,
+      "factual_retrieval": 142,
+      "history_aggregation": 120,
+      "object_tracking": 145,
+      "state_change": 137,
+      "temporal_reasoning": 100
+    },
+    "uncertain": 148
+  },
+  "storm_cook": {
+    "change_intensity": {
+      "1": 152,
+      "10": 115,
+      "2": 261,
+      "3": 369,
+      "4": 378,
+      "5": 375,
+      "6": 358,
+      "7": 318,
+      "8": 194,
+      "9": 120
+    },
+    "dropped_fields": {
+      "doubao_hardening_provenance": 952,
+      "doubao_release_selection": 952,
+      "hardening_provenance": 373,
+      "hardening_selection": 373,
+      "option_balance": 2640,
+      "time_rewrite_method": 6
+    },
+    "known": 2122,
+    "label": "Cook (HD-EPIC)",
+    "num_episodes": 314,
+    "num_questions": 2640,
+    "question_types": {
+      "current_state": 446,
+      "factual_retrieval": 429,
+      "history_aggregation": 442,
+      "object_tracking": 444,
+      "state_change": 439,
+      "temporal_reasoning": 440
+    },
+    "uncertain": 518
+  },
+  "storm_healthy": {
+    "change_intensity": {
+      "1": 63,
+      "10": 13,
+      "2": 110,
+      "3": 116,
+      "4": 149,
+      "5": 113,
+      "6": 108,
+      "7": 59,
+      "8": 34,
+      "9": 35
+    },
+    "dropped_fields": {
+      "relative_time_rewrite": 578,
+      "revision": 800
+    },
+    "known": 642,
+    "label": "Health (Ego-Exo4D)",
+    "num_episodes": 83,
+    "num_questions": 800,
+    "question_types": {
+      "current_state": 158,
+      "factual_retrieval": 167,
+      "history_aggregation": 103,
+      "object_tracking": 133,
+      "state_change": 155,
+      "temporal_reasoning": 84
+    },
+    "uncertain": 158
+  },
+  "storm_music": {
+    "change_intensity": {
+      "1": 17,
+      "2": 20,
+      "3": 31,
+      "4": 28,
+      "5": 15,
+      "6": 9
+    },
+    "dropped_fields": {
+      "relative_time_rewrite": 89,
+      "revision": 120
+    },
+    "known": 96,
+    "label": "Music (Ego-Exo4D)",
+    "num_episodes": 16,
+    "num_questions": 120,
+    "question_types": {
+      "current_state": 25,
+      "factual_retrieval": 26,
+      "history_aggregation": 11,
+      "object_tracking": 22,
+      "state_change": 22,
+      "temporal_reasoning": 14
+    },
+    "uncertain": 24
+  },
+  "storm_sim": {
+    "change_intensity": {
+      "1": 4,
+      "10": 40,
+      "2": 3,
+      "3": 30,
+      "4": 14,
+      "5": 11,
+      "6": 32,
+      "7": 46,
+      "8": 71,
+      "9": 49
+    },
+    "dropped_fields": {},
+    "known": 245,
+    "label": "THOR (AI2-THOR)",
+    "num_episodes": 28,
+    "num_questions": 300,
+    "question_types": {
+      "current_state": 54,
+      "factual_retrieval": 54,
+      "history_aggregation": 51,
+      "object_tracking": 50,
+      "state_change": 51,
+      "temporal_reasoning": 40
+    },
+    "uncertain": 55
+  },
+  "storm_sports": {
+    "change_intensity": {
+      "1": 110,
+      "10": 34,
+      "2": 161,
+      "3": 135,
+      "4": 138,
+      "5": 117,
+      "6": 44,
+      "7": 22,
+      "8": 25,
+      "9": 14
+    },
+    "dropped_fields": {
+      "relative_time_rewrite": 744,
+      "revision": 800
+    },
+    "known": 640,
+    "label": "Sports (Ego-Exo4D)",
+    "num_episodes": 99,
+    "num_questions": 800,
+    "question_types": {
+      "current_state": 170,
+      "factual_retrieval": 171,
+      "history_aggregation": 96,
+      "object_tracking": 141,
+      "state_change": 148,
+      "temporal_reasoning": 74
+    },
+    "uncertain": 160
+  },
+  "storm_vhome": {
+    "change_intensity": {
+      "1": 17,
+      "10": 57,
+      "2": 22,
+      "3": 24,
+      "4": 27,
+      "5": 20,
+      "6": 26,
+      "7": 36,
+      "8": 31,
+      "9": 30
+    },
+    "dropped_fields": {
+      "qa_schema": 290,
+      "question_stem": 290
+    },
+    "known": 237,
+    "label": "VHome (VirtualHome)",
+    "num_episodes": 29,
+    "num_questions": 290,
+    "question_types": {
+      "current_state": 52,
+      "factual_retrieval": 52,
+      "history_aggregation": 49,
+      "object_tracking": 49,
+      "state_change": 49,
+      "temporal_reasoning": 39
+    },
+    "uncertain": 53
+  }
+}

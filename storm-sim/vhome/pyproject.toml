@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "storm-virtualhome"
+version = "0.2.0"
+description = "Observer-only VirtualHome rollouts with other-agent events and video QA"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "numpy>=1.24", "Pillow>=10", "imageio>=2.31", "imageio-ffmpeg>=0.4.9", "PyYAML>=6", "opencv-python-headless>=4.8"]
+
+[project.optional-dependencies]
+qa = ["scipy>=1.11"]
+test = ["pytest>=8"]
+
+[project.scripts]
+storm-virtualhome-qa = "storm_virtualhome_qa.__main__:main"
+
+[tool.setuptools.package-data]
+storm_virtualhome_qa = ["qa290.json"]
+storm_virtualhome = ["prompts/*.txt"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

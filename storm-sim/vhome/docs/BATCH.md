@@ -1,0 +1,45 @@
+# Batch capture
+
+`rollout_batch.py` separates planning, capture, acceptance, and dataset publication. It snapshots source files and inputs, then freezes every candidate program before the first render. One seed can contribute at most one accepted video. Retries replay the same program. A failed seed is retained and the runner advances to the next frozen candidate; it never quietly edits a plan to make a capture pass.
+
+The current scene recipe still uses explicit scene-0 objects, spawn positions, and navigation anchors. The batch runner and QA selection are reusable, but another room requires a configured and validated recipe. Random event programs are supported; arbitrary-scene route planning is not implemented.
+
+## Start or resume
+
+```bash
+python scripts/rollout_batch.py \
+  --executable .runtime/simulator-observer/linux_exec.v2.3.0.x86_64 \
+  --config configs/randomized.yaml --graph outputs/example/planning_graph.json \
+  --output outputs/batch_30 --videos 30 --start-seed 42 --candidates 150 \
+  --max-attempts 3 --gpu-index 3 --xorg-root .runtime/xorg
+
+python outputs/batch_30/source/scripts/rollout_batch.py --output outputs/batch_30
+```
+
+The second command resumes with the frozen source and saved settings. A file lock prevents concurrent drivers for one batch. Completed episodes are skipped. Interrupted attempts retain their files and consume an attempt slot; incomplete outputs are never accepted. Native simulator cleanup runs on an interrupted or timed-out capture. Each attempt has a 30-minute timeout. The driver stops before starting another capture when less than 100 GiB remains free. Do not start another driver while the original is alive.
+
+The default pool contains 150 sequential seeds, each with at most three attempts. The driver stops after 30 accepted episodes or pool exhaustion. Exhaustion and low disk space exit with a nonzero status. They are not dataset completion. The manifest retains rejected seeds and logs, so selection effects can be assessed. Acceptance rates and event proportions should be reported from this manifest, not inferred from a successful example.
+
+## Dataset contract
+
+Each accepted episode has ten events, 60–70 seconds of video, five or six fully offscreen manipulations, matching clean/debug frames, and the existing motion, camera, visibility, and frozen-plan audits. No thresholds are relaxed for a batch.
+
+The capture first generates its full 60-question pool. Publication selects ten questions, one per event, without changing wording, choices, answers, or evidence. Every episode covers all six QA categories and retains at least one uncertain current-state question. Rotating category assignments give exactly 50 questions per category across 30 episodes. Video counts must be multiples of three for exact balance.
+
+`status.json` records the contract, current attempt, accepted episodes, counts, source hashes, and frozen inputs. It is written atomically after state changes. Each published packet is staged and then renamed into `dataset/episode_NNNN/`. It contains clean/debug videos, the selected `qa.json`, the private full pool, audit reports, and exact-frame evaluation prefixes.
+
+At batch root, `model_inputs.jsonl` contains only question IDs, questions, choices, query times, and clean prefix paths. `evaluation_labels.jsonl` and `qa_private.jsonl` contain private labels. Do not send private pools, debug overlays, event logs, or full future videos to the answering model. Aggregate files are updated after every accepted episode; only `status: complete` denotes all 30 videos and 300 selected questions.
+
+No external VLM is called by batch capture. The optional wording adapter remains a separate, configurable step requiring a supplied endpoint and model.
+
+## Throughput and source revisions
+
+One background publisher exports QA prefixes while the next capture runs. Publication remains ordered, with one publisher and one simulator. The main driver checks publisher completion every five seconds during capture. Status reports distinguish captures that passed from packets still being published. Run `python scripts/batch_status.py outputs/batch_30` for attempt timings and failure reasons.
+
+Prefix encoding defaults to x264 `veryfast` at CRF 18, with two threads and unchanged frame-count trimming. `--preset fast` remains available in `export_model_inputs.py`. This changes encoding work, not video timestamps or audit criteria. Each action records render/ingest wall times for later profiling.
+
+To update an existing batch, stop its driver at a capture boundary, then run the new driver with `--revision-source PATH --revision-note TEXT`. The driver preserves the original source and all inputs, snapshots the new source under `revisions/`, records its hashes, and labels subsequent attempts with their source revision. Resume with the latest revision's driver; the original driver does not understand revised execution paths. Existing accepted packets are retained. Event programs are never regenerated by a source revision.
+
+The first production review found two late first-close attempts and one bowl-grab pause. The revised route removes the mandatory second warm-up walk when both target and operator are already hidden. During a hidden grab, the observer takes a complete walk to a different patrol anchor instead of issuing another short walk toward the current endpoint. These route changes still require full-interval visibility, motion, and timing acceptance on every capture.
+
+An online cadence gate checks both the frozen time window and the preceding event gap immediately before each native manipulation, including the concurrent TV switch-off. It uses the same tolerance as the final audit. Invalid attempts stop before rendering the remaining events. Hidden pickup preparation also moves the operating character toward the target while the observer leaves the area; this avoids spending the entire manipulation interval walking to a distant portable object.

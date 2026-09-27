@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+outputs/
+ckpt/
+
+# Full dataset media is not part of the code release.
+# Only the released annotations, splits, manifests, and small examples are tracked.
+data/eval_video/
+data/**/video/

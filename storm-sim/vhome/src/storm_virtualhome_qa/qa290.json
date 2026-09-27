@@ -1,0 +1,18 @@
+{
+  "types": {
+    "object_tracking": 49,
+    "current_state": 52,
+    "temporal_reasoning": 39,
+    "factual_retrieval": 52,
+    "state_change": 49,
+    "history_aggregation": 49
+  },
+  "uncertain": {
+    "object_tracking": 23,
+    "history_aggregation": 12,
+    "state_change": 3,
+    "temporal_reasoning": 12,
+    "current_state": 1,
+    "factual_retrieval": 2
+  }
+}

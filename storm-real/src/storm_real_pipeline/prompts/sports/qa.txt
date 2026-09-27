@@ -1,0 +1,47 @@
+You construct temporally grounded multiple-choice QA for the STORM-Bench Sports long-term memory benchmark. The complete ego-view revisit belongs to exactly one of basketball, soccer, or climbing/bouldering and contains black gaps between visible visits. Infer the discipline from the visible frames, but never infer an action, score, possession, route completion, or identity inside a gap.
+
+Questions must require video evidence rather than sport rules, common drill order, or continuity priors.
+
+Question types:
+- factual_retrieval: retrieve a previously visible ball/marker/equipment attribute, player location, court/field feature, climbing hold, or hand/foot relation.
+- current_state: determine the latest visible ball possession/location, drill position, performer relation, route/hold position, or equipment configuration up to query_time.
+- state_change: ask about a visible possession/location transition, pass/shot result, drill-stage change, grip/foothold change, route progress, rope/equipment change, or reset. Contact and attempted motion do not prove an outcome.
+- object_tracking: track a ball, player, marker, climbing hold target, rope, or equipment instance only through persistent discriminative visual cues. Avoid direct same/different questions and never rely on continuity or jersey/color alone.
+- temporal_reasoning: ask the visible order, first, last, or kth occurrence of at least two non-conventional sports events.
+- history_aggregation: count explicitly defined visible action segments, ball contacts/possessions, shot attempts with visible release, cone passages, route moves, hold contacts, or distinguishable instances. Do not count hidden action.
+
+Return a strict JSON array. Every item must follow this schema:
+{
+  "id": "assigned later by the program",
+  "episode_id": "the supplied episode_id",
+  "query_time": 30.0,
+  "question_type": "one of the six fixed values",
+  "question_subtype": "concise English snake_case",
+  "video_evidence": "concise visible evidence with no speculation",
+  "question": "an English question",
+  "options": ["option A", "option B", "option C", "option D"],
+  "answer_index": 0,
+  "evidence_spans": [[12.0, 14.0]],
+  "diagnostics": {
+    "epistemic_status": "known|uncertain",
+    "uncertainty_sources": []
+  },
+  "diagnostic_rationale": {
+    "volatility": "why the state or history is temporally demanding",
+    "uncertainty": "why visible evidence supports known or uncertain"
+  }
+}
+
+Hard constraints:
+1. Provide exactly four distinct options. answer_index must be 0 to 3. Distribute correct answers across A/B/C/D. Options must be grammatically parallel and similar in length, specificity, and plausibility. Change only one or two visual attributes between alternatives whenever possible; never make the correct option uniquely detailed or domain-plausible.
+2. query_time and every evidence boundary must exactly match a supplied frame timestamp. Every evidence span must end no later than query_time.
+3. Use the shortest sufficient evidence. Represent one-frame evidence as [t,t]. Prefer separate point evidence for before and after states. Use [start,end] only when every frame in a short continuous interval supports the same visible process.
+4. known means visible evidence supports exactly one option and requires uncertainty_sources=[]. uncertain means the evidence cannot determine a unique answer; its correct option must be exactly "Cannot be determined" and it must include at least one legal uncertainty source.
+5. uncertainty_sources may contain only missing_observation, partial_observation, low_visual_quality, ambiguous_evidence, ambiguous_attribute, or multiple_candidates.
+6. history_aggregation must name a visible counting unit, such as distinct visible action segments, sampled frames containing the target, or distinguishable instances. Consecutive frames of one action count as one visible segment. Never infer counts inside gaps.
+7. Head or camera motion is not target motion. Contact alone does not prove a completed state change. A black gap is not an event or state change.
+8. Per episode, generate at least 8 known and 2 uncertain questions, with no more than 2 questions of any question_type. While the uncertain quota is unmet, every response must contain at least one uncertain item. Never invent known evidence to fill a quota.
+9. An uncertain question may target scenario-relevant information hidden by a gap, partially recorded, or not uniquely identifiable. Do not present absent content as observed fact.
+10. The input is sparse observation, not continuous video. Do not claim a complete process, causal link, or identity trajectory unless directly supported by visible samples.
+11. Avoid direct same/different questions. For object_tracking, ask which cross-time observation pair or persistent visual cue supports correspondence. A known answer requires a discriminative cue visible at every cited time; generic category, color, continuity, and normal activity sequence are insufficient.
+12. Return JSON only, without explanations, Markdown, or extra fields.

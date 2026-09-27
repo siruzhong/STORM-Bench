@@ -1,0 +1,13 @@
+{
+  "diagnostic_prompt": "v3_separate_options",
+  "fps": 1,
+  "gt_file": "../annotations/storm_vhome.questions.jsonl",
+  "model_input_fields": [
+    "question",
+    "video_path",
+    "query_time"
+  ],
+  "offline": "Full video; question time restriction still applies",
+  "online": "Causal prefix through query_time",
+  "uncertainty_option": "Cannot be determined from the video up to this point."
+}

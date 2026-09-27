@@ -1,0 +1,12 @@
+{
+  "video_frame_rule": "timestamp <= query_time",
+  "full_video_offline_allowed": false,
+  "required_conditions": [
+    "text_only",
+    "matched_video",
+    "shuffled_or_mismatched_video"
+  ],
+  "headline_split": "primary_visual_known",
+  "minimum_matched_video_gain": 0.1,
+  "maximum_shuffled_video_gain": 0.03
+}

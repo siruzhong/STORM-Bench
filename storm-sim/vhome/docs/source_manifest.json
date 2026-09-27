@@ -1,0 +1,16 @@
+{
+  "simulator": {
+    "name": "VirtualHome",
+    "version": "2.3.0",
+    "url": "http://virtual-home.org/release/simulator/v2.0/v2.3.0/linux_exec.zip",
+    "bytes": 287682964,
+    "observed_sha256": "ac23adb21c4038de6068b4d3234a21ae13dc468330d4ee52dd292dab2c126d51"
+  },
+  "protocol_reference": {
+    "repository": "https://github.com/xavierpuigf/virtualhome",
+    "commit": "58970fd80951c2eaa1af713e0917d1a105353ad8",
+    "path": "virtualhome/simulation/unity_simulator/comm_unity.py"
+  },
+  "implementation": "Independent HTTP client and rollout pipeline; no AI2-THOR imports",
+  "binary_redistributed": false
+}

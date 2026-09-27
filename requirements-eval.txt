@@ -1,0 +1,26 @@
+# Core dependencies for scripts/eval.
+#
+# Install a CUDA-matched PyTorch build first (pip install of `torch` from the
+# PyTorch wheel index), then `pip install -r requirements-eval.txt`.
+#
+# This single file covers the scoring path and the Qwen2.5/3, InternVL, Molmo,
+# MiniCPM, and Eagle families. The remaining families need their own Python
+# stack, and the full 14-model suite is launched through four venvs. Create them
+# with:
+#
+#   BASE_PYTHON=/path/to/torch/python bash scripts/setup_storm_envs.sh
+#
+# VideoLLaMA3 and Eagle additionally require FlashAttention-2 for the official
+# inference path; the pure-Python scoring tools do not.
+
+torch>=2.6
+torchvision>=0.21
+transformers>=4.57
+accelerate>=1.2
+decord>=0.6
+Pillow>=10
+numpy>=1.26
+sentencepiece>=0.2
+qwen-vl-utils>=0.0.14
+einops>=0.8
+requests>=2.31
