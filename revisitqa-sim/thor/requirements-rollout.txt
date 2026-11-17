@@ -1,0 +1,3 @@
+-r requirements.txt
+# The exact Python SDK snapshot used by the original rollout (Apache-2.0).
+./vendor/ai2thor

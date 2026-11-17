@@ -1,0 +1,4 @@
+[
+ {"id": "RevisitQA_cook_151_q03", "field": "question", "old": "Which ingredient is being added into the frying pan by now to by now?", "new": "Which ingredient is being added into the frying pan by now?", "reason": "fix_garbled_relative_time"},
+ {"id": "RevisitQA_cook_208_q05", "field": "question", "old": "Which item does the person move toward the dish rack by now to by now?", "new": "Which item does the person move toward the dish rack by now?", "reason": "fix_garbled_relative_time"}
+]

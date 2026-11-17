@@ -1,0 +1,1752 @@
+[
+ {
+  "id": "RevisitQA_bike_07_q08",
+  "field": "question",
+  "old": "Which fine-grained visual cue on the tire inflator can be used to link the inflator seen at 0.0s to the inflator held at the wheel at 38.0s through the black gap at 36.0s?",
+  "new": "Which fine-grained visual cue on the tire inflator links the inflator seen at 0.0s to the inflator held at the wheel at 38.0s through the black gap at 36.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_10_q11",
+  "field": "question",
+  "old": "How many people are definitely present in the shop based on visible evidence by 14.0s?",
+  "new": "How many people are present in the shop based on visible evidence by 14.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_11_q12",
+  "field": "question",
+  "old": "Up to 29.0s, how many distinct people can be confirmed to have been standing in the shop during the entire visible episode?",
+  "new": "Up to 29.0s, how many distinct people were standing in the shop during the entire visible episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_13_q10",
+  "field": "question",
+  "old": "Which tire sidewall marking can be tracked continuously across the views at 0.0s, 31.0–33.0s, and 40.0–43.0s to match the tire handled at 43.0s?",
+  "new": "Which tire sidewall marking links the views at 0.0s, 31.0–33.0s, and 40.0–43.0s to the tire handled at 43.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_17_q12",
+  "field": "question",
+  "old": "By 43.0 seconds, how many distinct visible segments of tire lever use to remove the tire from the rim can be counted in the sampled frames?",
+  "new": "By 43.0 seconds, how many distinct visible segments of tire lever use to remove the tire from the rim occur?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_18_q09",
+  "field": "question",
+  "old": "Which persistent visible feature on the inner tube can be used to confirm whether the tube pulled out at 14.0–15.0s is the same one inside the reassembled tire at 25.0s?",
+  "new": "Which persistent visible feature on the inner tube shows whether the tube pulled out at 14.0–15.0s is the same one inside the reassembled tire at 25.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_18_q10",
+  "field": "question",
+  "old": "Up to 30.0 seconds, how many distinct tire levers can be seen being used on the tire?",
+  "new": "Up to 30.0 seconds, how many distinct tire levers are used on the tire?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_20_q12",
+  "field": "question",
+  "old": "What change in the lubricant container held at the chain area is confirmed between the initial view at t=0.0 and the chain-area view at t=14.0?",
+  "new": "What change in the lubricant container held at the chain area is visible between the initial view at t=0.0 and the chain-area view at t=14.0?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_21_q10",
+  "field": "question",
+  "old": "Which fine-grained marking uniquely links the wheel held at 20.0 seconds to the wheel being inflated at 47.0 seconds?",
+  "new": "Which fine-grained marking links the wheel held at 20.0 seconds to the wheel being inflated at 47.0 seconds?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_22_q13",
+  "field": "question",
+  "old": "Before 17.0 seconds, what specific tool is resting on the lower wooden shelf beside the loose wheel behind the bicycle?",
+  "new": "Before 17.0 seconds, what tool is resting on the lower wooden shelf beside the loose wheel behind the bicycle?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_24_q14",
+  "field": "question",
+  "old": "Before 8.0 seconds, which specific tray/storage location did the screwdriver used on the black cover come from?",
+  "new": "Before 8.0 seconds, which tray/storage location did the screwdriver used on the black cover come from?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_25_q07",
+  "field": "question",
+  "old": "Which blue bicycle in the repair stand at 46.0 seconds matches a uniquely visible bicycle seen at 0.0 seconds?",
+  "new": "Which blue bicycle in the repair stand at 46.0 seconds matches a visible bicycle seen at 0.0 seconds?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_27_q12",
+  "field": "question",
+  "old": "Which repair action is the first clearly visible operation the gloved hands perform on the wheel/tube after the first black gap?",
+  "new": "Which repair action is the first visible operation the gloved hands perform on the wheel/tube after the first black gap?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_27_q13",
+  "field": "question",
+  "old": "Before 30 seconds, which specific tool on the wooden workbench is used first to interact with the removed wheel assembly?",
+  "new": "Before 30 seconds, which tool on the wooden workbench is used first to interact with the removed wheel assembly?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_28_q13",
+  "field": "question",
+  "old": "Before 11.0s, which specific tool was used to remove the tire from the rim?",
+  "new": "Before 11.0s, which tool was used to remove the tire from the rim?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_30_q13",
+  "field": "question",
+  "old": "Which tool on the wooden workbench is confirmed by visible evidence to be the pink tire lever being used at the wheel before 19.0 seconds?",
+  "new": "Which tool on the wooden workbench is the pink tire lever being used at the wheel before 19.0 seconds?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_31_q13",
+  "field": "question",
+  "old": "What specific tool is the black-handled, silver-shafted tool that the person retrieves from the open tool chest drawer?",
+  "new": "What tool is the black-handled, silver-shafted tool that the person retrieves from the open tool chest drawer?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_33_q12",
+  "field": "question",
+  "old": "How many times did the worker definitely remove and reinstall the tire during unobserved black gaps in this episode?",
+  "new": "How many times did the worker remove and reinstall the tire during unobserved black gaps in this episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_33_q13",
+  "field": "question",
+  "old": "Before being held at 36.0s, where did the pink tire lever definitely come from in the visible sequence?",
+  "new": "Before being held at 36.0s, where did the pink tire lever come from in the visible sequence?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_34_q13",
+  "field": "question",
+  "old": "Based only on visible evidence up to 20.0s, what specific patch material or product is being used on the inner tube?",
+  "new": "Based only on visible evidence up to 20.0s, what patch material or product is being used on the inner tube?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_35_q13",
+  "field": "question",
+  "old": "What specific black bench-top tool is resting on the right workbench when the tire gauge is placed there at 28.0s?",
+  "new": "What black bench-top tool is resting on the right workbench when the tire gauge is placed there at 28.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_36_q10",
+  "field": "question",
+  "old": "Which specific tire lever was used earlier to seat the tire bead before the 28.0s inspection?",
+  "new": "Which tire lever was used earlier to seat the tire bead before the 28.0s inspection?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_37_q10",
+  "field": "question",
+  "old": "What specific tool is the blue-handled implement held against the spoke in the first wheel-work segment?",
+  "new": "What tool is the blue-handled implement held against the spoke in the first wheel-work segment?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_38_q08",
+  "field": "question",
+  "old": "How many yellow tire levers are clearly visible on the concrete floor during the visible history up to 43.0s?",
+  "new": "How many yellow tire levers are visible on the concrete floor during the visible history up to 43.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_38_q10",
+  "field": "question",
+  "old": "Which specific hand tool was being used to seat the tire bead onto the rim just before the gap at 30.0s?",
+  "new": "Which hand tool was being used to seat the tire bead onto the rim just before the gap at 30.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_39_q12",
+  "field": "question",
+  "old": "What specific tool is being used to adjust the rear brake cable during the cable-work segment before the black gap at 21.0s?",
+  "new": "What tool is being used to adjust the rear brake cable during the cable-work segment before the black gap at 21.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_40_q13",
+  "field": "question",
+  "old": "Before the person grabs the pump, what specific tools are stored in the lower compartment of the wooden tool rack beside the work area?",
+  "new": "Before the person grabs the pump, what tools are stored in the lower compartment of the wooden tool rack beside the work area?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_41_q13",
+  "field": "question",
+  "old": "What specific tool is being used in the right hand during the floor-side rear wheel work at 39.0 seconds?",
+  "new": "What tool is being used in the right hand during the floor-side rear wheel work at 39.0 seconds?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_42_q11",
+  "field": "question",
+  "old": "What specific yellow-handled tool is the person using on the bicycle tire before opening the new inner tube package?",
+  "new": "What yellow-handled tool is the person using on the bicycle tire before opening the new inner tube package?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_44_q13",
+  "field": "question",
+  "old": "What specific type of tool is the yellow handheld lever used at the start and during tire work?",
+  "new": "What type of tool is the yellow handheld lever used at the start and during tire work?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_51_q10",
+  "field": "question",
+  "old": "By 36.0 seconds, what can be established about the red tire bead’s seating on the rim of the wheel?",
+  "new": "By 36.0 seconds, how is the red tire bead seated on the rim of the wheel?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_52_q08",
+  "field": "question",
+  "old": "Up to 40.0s, how many distinct tire levers can be confirmed as visible in the sampled frames?",
+  "new": "Up to 40.0s, how many distinct tire levers are visible in the sampled frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_54_q07",
+  "field": "question",
+  "old": "Which fine-grained marking uniquely links the dark circular object under the table at 1.0s to the black circular tube/ring on the floor at 20.0s?",
+  "new": "Which fine-grained marking links the dark circular object under the table at 1.0s to the black circular tube/ring on the floor at 20.0s?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_bike_54_q10",
+  "field": "question",
+  "old": "Which of these visible actions definitely happens first in the episode?",
+  "new": "Which of these visible actions happens first in the episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_03_q11",
+  "field": "question",
+  "old": "Is the black 'PENNE' box visible by now definitely the same individual box seen at the start?",
+  "new": "Is the black 'PENNE' box visible by now the same box seen at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_06_q09",
+  "field": "question",
+  "old": "How many total times did the person pour contents from the jar through the white strainer during the full episode?",
+  "new": "How many times did the person pour contents from the jar through the white strainer during the full episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_09_q07",
+  "field": "question",
+  "old": "Can the blue biscuit packet on the counter by now be determined to be the same individual packet held in an earlier view?",
+  "new": "Is the blue biscuit packet on the counter by now the same packet held in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_13_q11",
+  "field": "question",
+  "old": "Is the red bag visible later in the visible sequence the same individual bag seen near the tiled wall at the start?",
+  "new": "Is the red bag visible later in the visible sequence the same bag seen near the tiled wall at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_14_q08",
+  "field": "question",
+  "old": "When exactly was the glass lid moved from the minced-meat pan to the other pan?",
+  "new": "When was the glass lid moved from the minced-meat pan to the other pan?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_18_q12",
+  "field": "question",
+  "old": "by now, how many total ingredient pours from containers into the white bowl occurred in the complete video?",
+  "new": "by now, how many ingredient pours from containers into the white bowl occurred in the complete video?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_21_q12",
+  "field": "question",
+  "old": "What specific oven temperature or setting was the oven knob changed to by now?",
+  "new": "What oven temperature or setting was the oven knob changed to by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_23_q11",
+  "field": "question",
+  "old": "by now, what specific kitchen item is the person holding in their hand?",
+  "new": "by now, what kitchen item is the person holding in their hand?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_24_q12",
+  "field": "question",
+  "old": "by now, are the topped baked items visible in the lower oven the same individual items that were on the tray removed from the upper oven earlier?",
+  "new": "by now, are the topped baked items visible in the lower oven the same items that were on the tray removed from the upper oven earlier?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_27_q09",
+  "field": "question",
+  "old": "What specific food was added to or removed from the large worn pot between an earlier view and now?",
+  "new": "What food was added to or removed from the large worn pot between an earlier view and now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_32_q12",
+  "field": "question",
+  "old": "Which specific action happens first during the blacked-out interval during an earlier visible segment?",
+  "new": "Which action happens first during the blacked-out interval during an earlier visible segment?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_35_q10",
+  "field": "question",
+  "old": "by now, how many total oranges are present on the wooden counter next to the microwave?",
+  "new": "by now, how many oranges are present on the wooden counter next to the microwave?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_36_q12",
+  "field": "question",
+  "old": "by now, what is the total number of distinguishable oranges visible on the wooden counter beside the microwave?",
+  "new": "by now, what is the number of distinguishable oranges visible on the wooden counter beside the microwave?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_42_q11",
+  "field": "question",
+  "old": "According to the visible frames, what is the exact first moment the person puts on both yellow gloves?",
+  "new": "According to the visible frames, what is the first moment the person puts on both yellow gloves?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_46_q11",
+  "field": "question",
+  "old": "by now, what specific hand movement or stove-control adjustment caused the frying pan with diced potatoes to change from the right gas burner to the left gas burner?",
+  "new": "by now, what hand movement or stove-control adjustment caused the frying pan with diced potatoes to change from the right gas burner to the left gas burner?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_47_q07",
+  "field": "question",
+  "old": "by now, exactly how many distinct knives in total were present in the visible kitchen area?",
+  "new": "by now, how many distinct knives were present in the visible kitchen area?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_49_q10",
+  "field": "question",
+  "old": "Can the same orange bag that was first opened at the start be uniquely identified as the orange bundle sitting on the far right of the counter in an earlier view?",
+  "new": "Is the orange bag that was first opened at the start the same as the orange bundle sitting on the far right of the counter in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_51_q11",
+  "field": "question",
+  "old": "Is the black slotted spatula used for ham the same individual utensil later used for scrambled eggs, and can this be determined from the visible frames?",
+  "new": "Is the black slotted spatula used for ham the same utensil later used for scrambled eggs?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_52_q12",
+  "field": "question",
+  "old": "by now, how many total distinct kitchen items does the person wash during the visible dishwashing segment(s)?",
+  "new": "by now, how many distinct kitchen items does the person wash during the visible dishwashing segment(s)?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_53_q10",
+  "field": "question",
+  "old": "Can the ringed plate stack seen at the start be uniquely identified as the same ringed stack visible near the cutting board between an earlier view and now?",
+  "new": "Is the ringed plate stack seen at the start the same ringed stack visible near the cutting board between an earlier view and now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_53_q11",
+  "field": "question",
+  "old": "Count the total number of distinguishable dishes/kitchen items that are visibly washed under running water in the sink by now.",
+  "new": "Count the number of distinguishable dishes/kitchen items that are visibly washed under running water in the sink by now.",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_56_q08",
+  "field": "question",
+  "old": "Is the crumpled orange bag on the counter near the microwave by now definitely the same Sainsbury's bag shown in an earlier view?",
+  "new": "Is the crumpled orange bag on the counter near the microwave by now the same Sainsbury's bag shown in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_63_q08",
+  "field": "question",
+  "old": "What specific item is stored inside the glass cabinet in the background?",
+  "new": "What item is stored inside the glass cabinet in the background?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_69_q11",
+  "field": "question",
+  "old": "How many total mugs are inside the lower cabinet by the stove by now?",
+  "new": "How many mugs are inside the lower cabinet by the stove by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_72_q11",
+  "field": "question",
+  "old": "What specific printed text or document content is visible on the papers on the far counter in the adjacent room?",
+  "new": "What printed text or document content is visible on the papers on the far counter in the adjacent room?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_73_q07",
+  "field": "question",
+  "old": "Can the dark green slippers seen near the radiator at the start be confirmed as the same pair seen near the table edge in an earlier view?",
+  "new": "Are the dark green slippers seen near the radiator at the start the same pair seen near the table edge in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_75_q10",
+  "field": "question",
+  "old": "by now, how many separate spoonfuls of the light-colored powder were definitely added to the pan?",
+  "new": "by now, how many separate spoonfuls of the light-colored powder were added to the pan?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_77_q11",
+  "field": "question",
+  "old": "What specific food item is inside the oven by now?",
+  "new": "What food item is inside the oven by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_77_q12",
+  "field": "question",
+  "old": "by now, how many total times did the person turn a stove burner knob?",
+  "new": "by now, how many times did the person turn a stove burner knob?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_78_q12",
+  "field": "question",
+  "old": "Counting only distinct bowls that are clearly visible at some point in the sampled frames, how many bowls appear in the scene by now?",
+  "new": "Counting only distinct bowls that are visible at some point in the sampled frames, how many bowls appear in the scene by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_80_q10",
+  "field": "question",
+  "old": "by now, how many total bread slices are removed from the bread packet?",
+  "new": "by now, how many bread slices are removed from the bread packet?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_81_q10",
+  "field": "question",
+  "old": "How many total folds are made in the gray animal-print cloth during the entire episode?",
+  "new": "How many folds are made in the gray animal-print cloth during the entire episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_83_q07",
+  "field": "question",
+  "old": "What exact time is shown on the microwave clock during the potato-peeling segment?",
+  "new": "What time is shown on the microwave clock during the potato-peeling segment?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_83_q10",
+  "field": "question",
+  "old": "by now, where is the specific peeled potato the person was peeling in an earlier view?",
+  "new": "by now, where is the peeled potato the person was peeling in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_86_q09",
+  "field": "question",
+  "old": "by now, how many total times does the person fold the dough while it is out of the camera's view?",
+  "new": "by now, how many times does the person fold the dough while it is out of the camera's view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_91_q10",
+  "field": "question",
+  "old": "by now, how many total dough pieces did the person separate, shape, and place into the clear plastic container?",
+  "new": "by now, how many dough pieces did the person separate, shape, and place into the clear plastic container?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_95_q07",
+  "field": "question",
+  "old": "What specific beverage is the person making with the red kettle, according to the visible frames?",
+  "new": "What beverage is the person making with the red kettle, according to the visible frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_96_q12",
+  "field": "question",
+  "old": "What exact countertop or sink-area surface does the white bowl of blueberries first get placed onto immediately after the rinsing under the faucet ends?",
+  "new": "What countertop or sink-area surface does the white bowl of blueberries first get placed onto immediately after the rinsing under the faucet ends?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_98_q11",
+  "field": "question",
+  "old": "What specific microwave cook setting was changed to heat the food between closing the door later in the visible sequence and reopening it by now?",
+  "new": "What microwave cook setting was changed to heat the food between closing the door later in the visible sequence and reopening it by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_107_q09",
+  "field": "question",
+  "old": "How many distinct pieces of clothing can be confirmed as loaded into the washing machine from the visible frames by now?",
+  "new": "How many distinct pieces of clothing are loaded into the washing machine by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_108_q11",
+  "field": "question",
+  "old": "What specific contents are inside the yellow-dotted clear plastic bag in the sink area?",
+  "new": "What contents are inside the yellow-dotted clear plastic bag in the sink area?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_110_q12",
+  "field": "question",
+  "old": "Can the spoon-like utensil used in the stainless steel saucepan by now be confirmed as the same wooden spoon seen stirring mushrooms at the start?",
+  "new": "Is the spoon-like utensil used in the stainless steel saucepan by now the same wooden spoon seen stirring mushrooms at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_114_q08",
+  "field": "question",
+  "old": "by now, can the previously scrubbed large white plate be uniquely identified among the dishes in the open dishwasher?",
+  "new": "by now, can the previously scrubbed large white plate be identified among the dishes in the open dishwasher?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_115_q12",
+  "field": "question",
+  "old": "Do the visible frames confirm that the stack of bowls/plates the person holds by now came from the white bowls visible in the lower dishwasher rack at the start?",
+  "new": "Did the stack of bowls/plates the person holds by now come from the white bowls visible in the lower dishwasher rack at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_116_q08",
+  "field": "question",
+  "old": "Is the white pan with the wooden handle seen by now the same individual pan that was in the dish rack in an earlier view?",
+  "new": "Is the white pan with the wooden handle seen by now the same pan that was in the dish rack in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_119_q09",
+  "field": "question",
+  "old": "Which later container is definitely the same gray mug handled near the dishwasher?",
+  "new": "Which later container is the same gray mug handled near the dishwasher?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_122_q10",
+  "field": "question",
+  "old": "What exact number or time is shown on the silver microwave’s digital display?",
+  "new": "What number or time is shown on the silver microwave’s digital display?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_124_q10",
+  "field": "question",
+  "old": "Counting distinguishable potato instances visible inside the original bag across the visible frames, how many potatoes were there in total in the bag?",
+  "new": "Counting distinguishable potato instances visible inside the original bag across the visible frames, how many potatoes were there in the bag?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_127_q11",
+  "field": "question",
+  "old": "Can the gray bowl of mushrooms seen on the right counter at the start be determined to be the exact same bowl still on the right counter by now?",
+  "new": "Is the gray bowl of mushrooms seen on the right counter at the start the same bowl still on the right counter by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_133_q09",
+  "field": "question",
+  "old": "Is the white bowl used to marinate the chicken definitely the same white bowl seen near the back induction cooktop later in the visible sequence?",
+  "new": "Is the white bowl used to marinate the chicken the same white bowl seen near the back induction cooktop later in the visible sequence?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_140_q09",
+  "field": "question",
+  "old": "Can the spoon selected from the silverware drawer during an earlier visible segment be uniquely tracked to a specific location by now?",
+  "new": "Can the spoon selected from the silverware drawer during an earlier visible segment be tracked to a location by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_140_q10",
+  "field": "question",
+  "old": "by now, how many total distinguishable food or spice items are inside the corner cabinet under the wooden cutting board?",
+  "new": "by now, how many distinguishable food or spice items are inside the corner cabinet under the wooden cutting board?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_147_q11",
+  "field": "question",
+  "old": "Is the wooden board lying flat on the main counter in an earlier view the exact same board that had the metal rack on it at the start?",
+  "new": "Is the wooden board lying flat on the main counter in an earlier view the same board that had the metal rack on it at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_149_q09",
+  "field": "question",
+  "old": "by now, what can be determined about the contents of the covered red pan?",
+  "new": "by now, what is inside the covered red pan?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_150_q10",
+  "field": "question",
+  "old": "by now, how many metal spoons are definitely visible on the wooden cutting board across the sampled frames?",
+  "new": "by now, how many metal spoons are visible on the wooden cutting board across the sampled frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_152_q10",
+  "field": "question",
+  "old": "What specific numeric weight change occurs on the digital scale under the large white bowl during the visible sequence?",
+  "new": "What numeric weight change occurs on the digital scale under the large white bowl during the visible sequence?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_157_q09",
+  "field": "question",
+  "old": "How many total times did the person pour yellow liquid from the small metal cup onto the cooking batter?",
+  "new": "How many times did the person pour yellow liquid from the small metal cup onto the cooking batter?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_158_q10",
+  "field": "question",
+  "old": "What specific spice or ingredient is inside the small black-lidded jar seen early on the counter?",
+  "new": "What spice or ingredient is inside the small black-lidded jar seen early on the counter?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_159_q11",
+  "field": "question",
+  "old": "Which specific utensil in the bottom of the sink by now is the same spoon that was resting on the white plate at the start?",
+  "new": "Which utensil in the bottom of the sink by now is the same spoon that was resting on the white plate at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_160_q11",
+  "field": "question",
+  "old": "How many spoons are definitely taken from the cutlery drawer during the sequence by now?",
+  "new": "How many spoons are taken from the cutlery drawer during the sequence by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_176_q09",
+  "field": "question",
+  "old": "How many individual basil leaves were plucked from the plant and added to the bowl in total by now?",
+  "new": "How many basil leaves were plucked from the plant and added to the bowl by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_176_q12",
+  "field": "question",
+  "old": "What exact printed weight is shown on the pasta package standing on the countertop?",
+  "new": "What printed weight is shown on the pasta package standing on the countertop?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_179_q10",
+  "field": "question",
+  "old": "What specific action occurs exactly by now according to the visible frames?",
+  "new": "What action occurs by now according to the visible frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_180_q06",
+  "field": "question",
+  "old": "by now, how many fruit bowls in the kitchen can be confirmed as distinct visible fruit-holding containers?",
+  "new": "by now, how many distinct fruit bowls are in the kitchen?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_181_q12",
+  "field": "question",
+  "old": "by now, how many total times did the person move the blue-rimmed bowl between different surfaces (table, microwave, scale, decorated plate)?",
+  "new": "by now, how many times did the person move the blue-rimmed bowl between different surfaces (table, microwave, scale, decorated plate)?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_183_q10",
+  "field": "question",
+  "old": "What specific spice or seasoning is added from the small jar into the frying pan?",
+  "new": "What spice or seasoning is added from the small jar into the frying pan?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_184_q11",
+  "field": "question",
+  "old": "by now, how many total times does the person open or close kitchen drawers or cabinets in the full video?",
+  "new": "by now, how many times does the person open or close kitchen drawers or cabinets in the full video?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_188_q05",
+  "field": "question",
+  "old": "How many cups/mugs from the counter are definitely shown being placed into the dishwasher across the visible frames?",
+  "new": "How many cups/mugs from the counter are shown being placed into the dishwasher across the visible frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_189_q08",
+  "field": "question",
+  "old": "What exact product is in the clear bag with the purple zipper that the person pours from by now?",
+  "new": "What product is in the clear bag with the purple zipper that the person pours from by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_192_q11",
+  "field": "question",
+  "old": "Is the metal utensil used to stir vegetables at the start the same individual utensil as the slotted metal spatula used to stir by now?",
+  "new": "Is the metal utensil used to stir vegetables at the start the same utensil as the slotted metal spatula used to stir by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_192_q12",
+  "field": "question",
+  "old": "What specific heat-setting change was made to the stove burner while the pan was covered during an earlier visible segment?",
+  "new": "What heat-setting change was made to the stove burner while the pan was covered during an earlier visible segment?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_195_q09",
+  "field": "question",
+  "old": "Which specific counter container was placed into the blue drawer by now?",
+  "new": "Which counter container was placed into the blue drawer by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_196_q10",
+  "field": "question",
+  "old": "Is the white bowl of fruit seen near the sandwich press/microwave in an earlier view the same individual bowl as one of the stacked white bowls seen on the wheeled cart at the start?",
+  "new": "Is the white bowl of fruit seen near the sandwich press/microwave in an earlier view the same bowl as one of the stacked white bowls seen on the wheeled cart at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_197_q10",
+  "field": "question",
+  "old": "Can the packet held later in the visible sequence be confirmed as the same individual packet that was cut open in an earlier view?",
+  "new": "Is the packet held later in the visible sequence the same packet that was cut open in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_198_q10",
+  "field": "question",
+  "old": "Can the black slotted spatula used after in an earlier view be proven to be the exact same instance as the one used before the 27.0-second black frame?",
+  "new": "Is the black slotted spatula used in an earlier view the same one used before the 27.0-second black frame?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_204_q09",
+  "field": "question",
+  "old": "How many total knife cuts were made to prepare the onion by now?",
+  "new": "How many knife cuts were made to prepare the onion by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_206_q09",
+  "field": "question",
+  "old": "by now, how many total pages of the notebook were written on during the episode?",
+  "new": "by now, how many pages of the notebook were written on during the episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_206_q10",
+  "field": "question",
+  "old": "What exact text did the person write in the notebook by now?",
+  "new": "What text did the person write in the notebook by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_209_q12",
+  "field": "question",
+  "old": "At what exact timestamp does the person open the upper right cabinet door?",
+  "new": "At what timestamp does the person open the upper right cabinet door?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_210_q11",
+  "field": "question",
+  "old": "Which specific ingredient is being weighed when the digital scale shows a non-zero reading by now–by now?",
+  "new": "Which ingredient is being weighed when the digital scale shows a non-zero reading by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_215_q08",
+  "field": "question",
+  "old": "Which specific glass from the counter is the person holding while walking toward the door by now?",
+  "new": "Which glass from the counter is the person holding while walking toward the door by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_223_q10",
+  "field": "question",
+  "old": "How many total times the yellow sponge is picked up and put down during the entire visible episode?",
+  "new": "How many times is the yellow sponge picked up and put down during the entire visible episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_225_q11",
+  "field": "question",
+  "old": "by now, what is the exact total number of dishes that were dried with the cloth during the episode?",
+  "new": "by now, what is the number of dishes that were dried with the cloth during the episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_226_q13",
+  "field": "question",
+  "old": "by now, how many total items are loaded inside the open lower dishwasher rack?",
+  "new": "by now, how many items are loaded inside the open lower dishwasher rack?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_229_q09",
+  "field": "question",
+  "old": "What is the full, exact first ingredient measurement written on the recipe paper by now?",
+  "new": "What is the full first ingredient measurement written on the recipe paper by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_233_q09",
+  "field": "question",
+  "old": "How many distinct green-and-silver packets are definitely used during the visible episode?",
+  "new": "How many distinct green-and-silver packets are used during the visible episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_236_q08",
+  "field": "question",
+  "old": "Is the black frying pan visible on the gas stove by now definitely the same pan that was used near the beginning?",
+  "new": "Is the black frying pan visible on the gas stove by now the same pan that was used near the beginning?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_239_q09",
+  "field": "question",
+  "old": "Can the video determine which exact storage location the small bottle came from before it appeared on the counter?",
+  "new": "Can the video determine which storage location the small bottle came from before it appeared on the counter?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_243_q09",
+  "field": "question",
+  "old": "Can the specific copper spoon seen on the counter at the start be confidently identified as the same spoon placed in the dishwasher cutlery by now?",
+  "new": "Is the copper spoon seen on the counter at the start the same spoon placed in the dishwasher cutlery by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_244_q09",
+  "field": "question",
+  "old": "Is the white square container resting on the right counter near the dish rack by now definitely the same container that was emptied and washed earlier?",
+  "new": "Is the white square container resting on the right counter near the dish rack by now the same container that was emptied and washed earlier?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_246_q12",
+  "field": "question",
+  "old": "Which action definitely began first overall in the episode: using the yellow-nozzle spray bottle, wiping upper cabinets with the cloth, or placing the patterned cloth on the wooden counter near the stove?",
+  "new": "Which action began first overall in the episode: using the yellow-nozzle spray bottle, wiping upper cabinets with the cloth, or placing the patterned cloth on the wooden counter near the stove?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_248_q08",
+  "field": "question",
+  "old": "by now, can the black phone at the left edge of the windowsill counter be determined to be the same phone that was near the microwave in an earlier view?",
+  "new": "by now, is the black phone at the left edge of the windowsill counter the same phone that was near the microwave in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_254_q10",
+  "field": "question",
+  "old": "What is the exact brand name printed on the label of the oil bottle used near the salad bowl?",
+  "new": "What is the brand name printed on the label of the oil bottle used near the salad bowl?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_260_q08",
+  "field": "question",
+  "old": "by now, what exact numbered setting is the air fryer knob turned to?",
+  "new": "by now, what numbered setting is the air fryer knob turned to?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_260_q09",
+  "field": "question",
+  "old": "How many successful barcode scans are definitely confirmed by visible on-screen results in the sampled frames?",
+  "new": "How many successful barcode scans are shown by on-screen results in the sampled frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_263_q12",
+  "field": "question",
+  "old": "by now, is the short carrot segment resting on the white cutting board next to the peeler the same individual carrot that was pulled from the bag in an earlier view?",
+  "new": "by now, is the short carrot segment resting on the white cutting board next to the peeler the same carrot that was pulled from the bag in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_265_q09",
+  "field": "question",
+  "old": "by now, what is the exact total number of times the person stirred the salad, counting every brief stirring motion that occurred?",
+  "new": "by now, what is the number of times the person stirred the salad, counting every brief stirring motion that occurred?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_268_q10",
+  "field": "question",
+  "old": "by now, how many paper towel sheets were definitely used by the person?",
+  "new": "by now, how many paper towel sheets were used by the person?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_269_q10",
+  "field": "question",
+  "old": "Can the patty placed on the vegetable-only plate in an earlier view be uniquely identified as the same specific patty that was in the front-left position on the tray in an earlier view?",
+  "new": "Is the patty placed on the vegetable-only plate in an earlier view the same patty that was in the front-left position on the tray at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_270_q10",
+  "field": "question",
+  "old": "Is the clear plastic container holding green chilies by now the exact same container that held only carrots in an earlier view?",
+  "new": "Is the clear plastic container holding green chilies by now the same container that held only carrots in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_271_q07",
+  "field": "question",
+  "old": "Which specific food item, if any, was being weighed immediately before the celery stalk appeared on the scale?",
+  "new": "Which food item, if any, was being weighed immediately before the celery stalk appeared on the scale?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_271_q08",
+  "field": "question",
+  "old": "Based only on visible frames by now, how many distinct kinds of vegetables were definitely chopped during this episode?",
+  "new": "Based only on visible frames by now, how many distinct kinds of vegetables were chopped during this episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_272_q10",
+  "field": "question",
+  "old": "How many total mushrooms were originally in the red container before any were removed?",
+  "new": "How many mushrooms were originally in the red container before any were removed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_278_q06",
+  "field": "question",
+  "old": "What exact brand name is printed on the dish soap bottle in the side tray?",
+  "new": "What brand name is printed on the dish soap bottle in the side tray?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_279_q07",
+  "field": "question",
+  "old": "by now, how many large cucumber chunks are clearly visible on the countertop near the cutting board, not counting the small round slice being held?",
+  "new": "by now, how many large cucumber chunks are visible on the countertop near the cutting board, not counting the small round slice being held?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_284_q04",
+  "field": "question",
+  "old": "by now, can the glass bowl of green leaves on the kitchen counter be confirmed as the same object as the glass pot lid seen near the wine bottle in an earlier view?",
+  "new": "by now, is the glass bowl of green leaves on the kitchen counter the same object as the glass pot lid seen near the wine bottle in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_287_q11",
+  "field": "question",
+  "old": "At what exact moment, according to the visible frames, is the pot lid first removed from the pot?",
+  "new": "At what moment, according to the visible frames, is the pot lid first removed from the pot?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_287_q12",
+  "field": "question",
+  "old": "by now, how many distinct types of spoons are definitely visible being used or placed on the counter?",
+  "new": "by now, how many distinct types of spoons are visible being used or placed on the counter?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_291_q12",
+  "field": "question",
+  "old": "What is the exact pattern or color design on the crumpled kitchen cloth on the left wooden counter near the stove?",
+  "new": "What is the pattern or color design on the crumpled kitchen cloth on the left wooden counter near the stove?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_293_q12",
+  "field": "question",
+  "old": "by now, how many total breaded items did the person freshly form and place onto the foil during moments visible as distinct action segments?",
+  "new": "by now, how many breaded items did the person freshly form and place onto the foil during moments visible as distinct action segments?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_294_q09",
+  "field": "question",
+  "old": "by now, what specific small item does the person move away from the area near the wooden pepper grinder?",
+  "new": "by now, what small item does the person move away from the area near the wooden pepper grinder?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_296_q12",
+  "field": "question",
+  "old": "How many total portions of yellow batter are poured into the frying pan by now?",
+  "new": "How many portions of yellow batter are poured into the frying pan by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_297_q11",
+  "field": "question",
+  "old": "by now, how many times does the person clearly press a soap/detergent bottle to dispense soap?",
+  "new": "by now, how many times does the person press a soap/detergent bottle to dispense soap?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_299_q11",
+  "field": "question",
+  "old": "Which small bowl near the sink by now is definitely the same bowl that held the orange spice in an earlier view?",
+  "new": "Which small bowl near the sink by now is the same bowl that held the orange spice in an earlier view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_300_q10",
+  "field": "question",
+  "old": "What specific product name is written on the blue label of the white yogurt-style container by now?",
+  "new": "What product name is written on the blue label of the white yogurt-style container by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_301_q06",
+  "field": "question",
+  "old": "Can the clear bottle with the white cap be confirmed as the source of the white liquid added to the blender?",
+  "new": "Is the clear bottle with the white cap the source of the white liquid added to the blender?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_302_q12",
+  "field": "question",
+  "old": "by now, how many total times did the person pour a liquid or mixture between containers in the episode?",
+  "new": "by now, how many times did the person pour a liquid or mixture between containers in the episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_305_q08",
+  "field": "question",
+  "old": "Counting only clearly distinguishable objects visibly held under a running faucet in the video, how many such objects are shown?",
+  "new": "Counting only distinguishable objects visibly held under a running faucet in the video, how many such objects are shown?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_309_q11",
+  "field": "question",
+  "old": "How many distinct visible action segments can be confirmed during the black frame interval at the start?",
+  "new": "How many distinct visible action segments occur during the black frame interval at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_311_q12",
+  "field": "question",
+  "old": "What specific state change to the gas stove burner under the red pot occurs across the in an earlier view black frame interval?",
+  "new": "What state change to the gas stove burner under the red pot occurs across the earlier black frame interval?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_04_q10",
+  "field": "question",
+  "old": "By now, what visible change to the cassette is confirmed from direct observation?",
+  "new": "By now, what change to the cassette is visible?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_08_q09",
+  "field": "question",
+  "old": "Does visible evidence confirm that the person successfully transferred liquid from the white swab onto the BinaxNOW test card before the swab is being handled by now?",
+  "new": "Did the person transfer liquid from the white swab onto the BinaxNOW test card before the swab is being handled by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_13_q09",
+  "field": "question",
+  "old": "By now, what is the latest confirmed visible location of the small white tube component that appears on the opened Flowflex box shortly before now?",
+  "new": "By now, what is the latest visible location of the small white tube component that appears on the opened Flowflex box shortly before now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_13_q11",
+  "field": "question",
+  "old": "What change to the nasal swab and extraction tube is visibly confirmed between the earlier black gap and now?",
+  "new": "What change to the nasal swab and extraction tube is visible between the earlier black gap and now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_14_q12",
+  "field": "question",
+  "old": "How many total test components were initially inside the sealed Flowflex box before any packets were removed?",
+  "new": "How many test components were initially inside the sealed Flowflex box before any packets were removed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_17_q11",
+  "field": "question",
+  "old": "By now, just before the first black gap, how many separate visible packet/pouch-tearing action segments can be confirmed from the visible frames alone?",
+  "new": "By now, just before the first black gap, how many separate packet/pouch-tearing action segments occur?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_17_q12",
+  "field": "question",
+  "old": "From the visible frames alone, which specific pouch is opened first: a buffer/extraction-component foil pouch, a swab packet, the cassette packet, or another component?",
+  "new": "From the visible frames alone, which pouch is opened first: a buffer/extraction-component foil pouch, a swab packet, the cassette packet, or another component?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_19_q11",
+  "field": "question",
+  "old": "Which packet being cut by now can be confirmed as the same swab wrapper that was opened before the black gap?",
+  "new": "Which packet being cut by now is the same swab wrapper that was opened before the black gap?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_20_q08",
+  "field": "question",
+  "old": "From which exact visible table packet or container does the yellow-marked biohazard bag the person holds now come?",
+  "new": "From which visible table packet or container does the yellow-marked biohazard bag the person holds now come?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_22_q12",
+  "field": "question",
+  "old": "What specific written instruction is visible on the unfolded white paper instructions by now?",
+  "new": "What written instruction is visible on the unfolded white paper instructions by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_27_q12",
+  "field": "question",
+  "old": "By now, in the dark/partially obscured frame showing a hand near the mannequin’s head/chest, can the black wristband seen during earlier chest compressions be confirmed as the same band on that hand?",
+  "new": "By now, in the dark/partially obscured frame showing a hand near the mannequin’s head/chest, is the black wristband seen during earlier chest compressions the same band on that hand?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_29_q11",
+  "field": "question",
+  "old": "Which persistent visual mark confirms that the left tripod seen now is the same individual tripod seen before the black gap rather than a different tripod?",
+  "new": "Which persistent visual mark shows that the left tripod seen now is the same tripod seen before the black gap rather than a different tripod?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_30_q11",
+  "field": "question",
+  "old": "Which persistent visual marker confirms that the tripod seen at the right edge at the start is the same tripod as the one seen at the right edge by now?",
+  "new": "Which persistent visual marker shows that the tripod seen at the right edge at the start is the same tripod as the one seen at the right edge by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_31_q13",
+  "field": "question",
+  "old": "What exact text is printed on the standing person's light-colored top at the start of the episode?",
+  "new": "What text is printed on the standing person's light-colored top at the start of the episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_32_q11",
+  "field": "question",
+  "old": "What printed text is clearly visible on the blue mat by now?",
+  "new": "What printed text is visible on the blue mat by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_33_q11",
+  "field": "question",
+  "old": "How many individual chest compressions are completed during the stacked-hands segment before the dark frame now?",
+  "new": "How many chest compressions are completed during the stacked-hands segment before the dark frame now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_34_q11",
+  "field": "question",
+  "old": "How many total distinct visible stacked-hand chest compression segments occur across the entire episode, including any segments hidden by black gaps?",
+  "new": "How many distinct visible stacked-hand chest compression segments occur across the entire episode, including any segments hidden by black gaps?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_38_q12",
+  "field": "question",
+  "old": "Which uniquely visible feature identifies the dark bag seen near the wall at the start as the same dark bag present by now?",
+  "new": "Which visible feature identifies the dark bag seen near the wall at the start as the same dark bag present by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_41_q13",
+  "field": "question",
+  "old": "What exact printed text is visible on the green packet lying on the table by now?",
+  "new": "What printed text is visible on the green packet lying on the table by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_46_q11",
+  "field": "question",
+  "old": "What persistent visual cue confirms that the small capped vial held by now is the same tube the swab was inserted into earlier?",
+  "new": "What persistent visual cue shows that the small capped vial held by now is the same tube the swab was inserted into earlier?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_47_q09",
+  "field": "question",
+  "old": "Which persistent visual mark confirms that the long sealed package by now is the same long package placed on the table earlier?",
+  "new": "Which persistent visual mark shows that the long sealed package by now is the same long package placed on the table earlier?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_48_q13",
+  "field": "question",
+  "old": "What specific test kit identifier or labeled swab type is printed on the long white packet being opened by now?",
+  "new": "What test kit identifier or labeled swab type is printed on the long white packet being opened by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_49_q11",
+  "field": "question",
+  "old": "What exact text appears on the front face of the small box sitting on the table by now?",
+  "new": "What text appears on the front face of the small box sitting on the table by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_50_q11",
+  "field": "question",
+  "old": "How many separate drops of liquid are visibly confirmed being dispensed onto the cassette well?",
+  "new": "How many separate drops of liquid are visible being dispensed onto the cassette well?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_51_q11",
+  "field": "question",
+  "old": "Which persistent visual marking uniquely confirms that the swab held now is the same one taken from the packet opened just before the view was blocked?",
+  "new": "Which persistent visual marking shows that the swab held now is the same one taken from the packet opened just before the view was blocked?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_54_q13",
+  "field": "question",
+  "old": "What is the exact printed brand or product text on the blue-and-white test package visible on the table?",
+  "new": "What is the printed brand or product text on the blue-and-white test package visible on the table?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_55_q11",
+  "field": "question",
+  "old": "By now, what procedure action is visibly confirmed to have occurred inside the earlier black gaps?",
+  "new": "By now, what procedure action occurred inside the earlier black gaps?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_56_q11",
+  "field": "question",
+  "old": "How many total test components were removed from the test kit box during the entire unboxing?",
+  "new": "How many test components were removed from the test kit box during the entire unboxing?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_59_q09",
+  "field": "question",
+  "old": "Which persistent visible marker confirms that the instruction sheet visible near the mannequin at the start is the same instruction sheet visible near the mannequin before the rotated close-up view?",
+  "new": "Which persistent visible marker shows that the instruction sheet visible near the mannequin at the start is the same instruction sheet visible near the mannequin before the rotated close-up view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_60_q13",
+  "field": "question",
+  "old": "What specific procedural instruction is printed on the instruction sheet next to the mannequin?",
+  "new": "What procedural instruction is printed on the instruction sheet next to the mannequin?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_62_q12",
+  "field": "question",
+  "old": "By the last frame, can the black ring on the compressing hand be confirmed as continuously present on the same finger throughout all compression frames?",
+  "new": "By the last frame, is the black ring on the compressing hand on the same finger throughout all compression frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_62_q13",
+  "field": "question",
+  "old": "What specific CPR instructions are printed on the white sheet near the mannequin?",
+  "new": "What CPR instructions are printed on the white sheet near the mannequin?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_64_q13",
+  "field": "question",
+  "old": "What specific CPR step instruction is legibly printed on the white sheet near the mannequin?",
+  "new": "What CPR step instruction is legibly printed on the white sheet near the mannequin?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_65_q12",
+  "field": "question",
+  "old": "What exact legible product or brand text is printed on the blue bag against the far wall?",
+  "new": "What legible product or brand text is printed on the blue bag against the far wall?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_66_q12",
+  "field": "question",
+  "old": "Based on the visible frames, which uniquely marked swab can be confirmed as the same object being handled by now?",
+  "new": "Based on the visible frames, which marked swab is the same object being handled by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_68_q11",
+  "field": "question",
+  "old": "Which specific pink-capped vial is the tube handled by the hands near the test cassette before the late black-frame views?",
+  "new": "Which pink-capped vial is the tube handled by the hands near the test cassette before the late black-frame views?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_79_q10",
+  "field": "question",
+  "old": "Which persistent visible marking confirms that the small white piece held early in the segment is the same small white cap being handled by now?",
+  "new": "Which persistent visible marking shows that the small white piece held early in the segment is the same small white cap being handled by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_health_83_q08",
+  "field": "question",
+  "old": "Which persistent visible marking confirms that the swab packet being handled now is the same swab seen at the start of the episode?",
+  "new": "Which persistent visible marking shows that the swab packet being handled now is the same swab seen at the start of the episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_music_03_q10",
+  "field": "question",
+  "old": "Can the phone the man in the white shirt holds when he returns to the right tripod later be confirmed as the same physical phone he held at the start?",
+  "new": "Is the phone the man in the white shirt holds when he returns to the right tripod later the same physical phone he held at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_music_04_q11",
+  "field": "question",
+  "old": "By now, which left-hand fingers are clearly stopping strings on the cello fingerboard?",
+  "new": "By now, which left-hand fingers are stopping strings on the cello fingerboard?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_music_05_q08",
+  "field": "question",
+  "old": "By now, what can be concluded about a completed page turn from the visible evidence?",
+  "new": "By now, which page turn has been completed, based on the visible evidence?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_music_09_q12",
+  "field": "question",
+  "old": "What is the distant background person doing when they first become clearly visible near the camera?",
+  "new": "What is the distant background person doing when they first become visible near the camera?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_music_12_q11",
+  "field": "question",
+  "old": "What specific printed title or text is legible at the top of the sheet music on the stand during the episode?",
+  "new": "What printed title or text is legible at the top of the sheet music on the stand during the episode?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_18_q12",
+  "field": "question",
+  "old": "What exact text or number is visible on the back of the red-and-blue shirt when the distant player is seen from the back/side earlier?",
+  "new": "What text or number is visible on the back of the red-and-blue shirt when the distant player is seen from the back/side earlier?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_20_q11",
+  "field": "question",
+  "old": "How many total times did the camera wearer's white-and-green ball visibly pass a white disc marker while dribbling through the full revisit by now?",
+  "new": "How many times did the camera wearer's white-and-green ball visibly pass a white disc marker while dribbling through the full revisit by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_35_q10",
+  "field": "question",
+  "old": "Which persistent visual cue proves that the soccer ball resting on the grass by now is the same individual ball the camera wearer was dribbling at the start?",
+  "new": "Which persistent visual cue shows that the soccer ball resting on the grass by now is the same ball the camera wearer was dribbling at the start?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_06_q10",
+  "field": "question",
+  "old": "When exactly during the revisit does the tripod get moved from the far wall to the bench side?",
+  "new": "When during the revisit does the tripod get moved from the far wall to the bench side?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_08_q11",
+  "field": "question",
+  "old": "How many total made shots occur in the entire segment up to now, including intervals hidden by black gaps?",
+  "new": "How many made shots occur in the entire segment up to now, including intervals hidden by black gaps?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_13_q10",
+  "field": "question",
+  "old": "Can the same individual basketball be uniquely tracked from the start through all visible shots to the current point using only the visible frames?",
+  "new": "Is the same basketball tracked from the start through all visible shots to the current point?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_18_q11",
+  "field": "question",
+  "old": "Which persistent visual cue confirms that the distant basketball in the air by now is the same ball that was in the net earlier before the dark gap?",
+  "new": "Which persistent visual cue shows that the distant basketball in the air by now is the same ball that was in the net earlier before the dark gap?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_27_q10",
+  "field": "question",
+  "old": "By the end of the sampled sequence, how many total made baskets are visible in the sampled frames?",
+  "new": "By the end of the sampled sequence, how many made baskets are visible in the sampled frames?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_28_q11",
+  "field": "question",
+  "old": "What exact text or logo appears on the black shirt worn by the man in light blue shorts when he is standing on court in this early view?",
+  "new": "What text or logo appears on the black shirt worn by the man in light blue shorts when he is standing on court in this early view?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_39_q08",
+  "field": "question",
+  "old": "By now, who is in confirmed visible possession of the ball that was kicked moments earlier?",
+  "new": "By now, who is in visible possession of the ball that was kicked moments earlier?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_40_q10",
+  "field": "question",
+  "old": "Which persistent visual cue confirms that the orange disc cone visible at the start is the same cone as the orange disc cone visible just before now?",
+  "new": "Which persistent visual cue shows that the orange disc cone visible at the start is the same cone as the orange disc cone visible just before now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_35_q12",
+  "field": "question",
+  "old": "What persistent visible marker confirms that the ball resting on the court near the woman in black by now is the same individual basketball the camera wearer held earlier?",
+  "new": "What persistent visible marker shows that the ball resting on the court near the woman in black by now is the same basketball the camera wearer held earlier?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_38_q10",
+  "field": "question",
+  "old": "Based on persistent visible markings, can the airborne basketball by now be confirmed as the same striped basketball that was near the camera wearer earlier, just before the black gap?",
+  "new": "Based on persistent visible markings, is the airborne basketball by now the same striped basketball that was near the camera wearer earlier, just before the black gap?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_42_q10",
+  "field": "question",
+  "old": "How many shots are visibly confirmed to fully pass through the hoop by now?",
+  "new": "How many shots fully pass through the hoop by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_42_q11",
+  "field": "question",
+  "old": "By now, what is the latest confirmed outcome of the basketball after it reaches the hoop?",
+  "new": "By now, what is the latest outcome of the basketball after it reaches the hoop?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_45_q13",
+  "field": "question",
+  "old": "By now, which specific basketball is the airborne shot ball that is approaching the hoop?",
+  "new": "By now, which basketball is the airborne shot ball that is approaching the hoop?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_bouldering_03_q13",
+  "field": "question",
+  "old": "Which hold gripped by now is the same specific hold as the small green hold the right hand was gripping before the blurred fall?",
+  "new": "Which hold gripped by now is the same hold as the small green hold the right hand was gripping before the blurred fall?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_45_q09",
+  "field": "question",
+  "old": "How many completed kicks of the near patterned ball are visibly confirmed in the sampled footage by now?",
+  "new": "How many completed kicks of the near patterned ball are visible in the sampled footage by now?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_04_q01",
+  "field": "question",
+  "old": "Between 7 and 14 seconds, how many times in total was the table lamp farthest from the desk picked up or put down?",
+  "new": "Between 7 and 14 seconds, how many times was the table lamp farthest from the desk picked up or put down?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_10_q07",
+  "field": "question",
+  "old": "Between 17 and 32 seconds, how many times in total was the television picked up or put down?",
+  "new": "Between 17 and 32 seconds, how many times was the television picked up or put down?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_11_q01",
+  "field": "question",
+  "old": "Between 8 and 14 seconds, how many times in total was the cabinet closest to the door opened or closed?",
+  "new": "Between 8 and 14 seconds, how many times was the cabinet closest to the door opened or closed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_12_q02",
+  "field": "question",
+  "old": "Between 7 and 14 seconds, how many times in total was the toilet lid opened or closed?",
+  "new": "Between 7 and 14 seconds, how many times was the toilet lid opened or closed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_13_q02",
+  "field": "question",
+  "old": "Between 24 and 34 seconds, how many times in total was the cabinet closest to the nightstand opened or closed?",
+  "new": "Between 24 and 34 seconds, how many times was the cabinet closest to the nightstand opened or closed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_16_q05",
+  "field": "question",
+  "old": "Between 27 and 36 seconds, how many times in total was the radio picked up or put down?",
+  "new": "Between 27 and 36 seconds, how many times was the radio picked up or put down?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_17_q06",
+  "field": "question",
+  "old": "Between 38 and 46 seconds, how many times in total was the television picked up or put down?",
+  "new": "Between 38 and 46 seconds, how many times was the television picked up or put down?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_18_q03",
+  "field": "question",
+  "old": "Between 19 and 27 seconds, how many times in total was the dishwasher picked up or put down?",
+  "new": "Between 19 and 27 seconds, how many times was the dishwasher picked up or put down?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_18_q09",
+  "field": "question",
+  "old": "Between 47 and 54 seconds, how many times in total was the microwave opened or closed?",
+  "new": "Between 47 and 54 seconds, how many times was the microwave opened or closed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_21_q01",
+  "field": "question",
+  "old": "Between 7 and 13 seconds, how many times in total was the toilet lid opened or closed?",
+  "new": "Between 7 and 13 seconds, how many times was the toilet lid opened or closed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_25_q07",
+  "field": "question",
+  "old": "Between 51 and 59 seconds, how many times in total was the cabinet farthest from the nightstand opened or closed?",
+  "new": "Between 51 and 59 seconds, how many times was the cabinet farthest from the nightstand opened or closed?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_vhome_28_q02",
+  "field": "question",
+  "old": "Between 10 and 16 seconds, how many times in total was the juice picked up or put down?",
+  "new": "Between 10 and 16 seconds, how many times was the juice picked up or put down?",
+  "reason": "remove_status_cue_wording"
+ },
+ {
+  "id": "RevisitQA_cook_33_q08",
+  "field": "question",
+  "old": null,
+  "new": "What is the state of the white bowl by now?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_105_q11",
+  "field": "question",
+  "old": null,
+  "new": "Which item is scrubbed first with the brush after an earlier view?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_146_q07",
+  "field": "question",
+  "old": null,
+  "new": "Is the orange cloth on the small table by now the same cloth used to wipe the white cutting board in an earlier view?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_158_q11",
+  "field": "question",
+  "old": null,
+  "new": "Which occurs earlier in the complete kitchen activity: opening the pressure cooker lid or starting to wipe the induction cooker/counter with a white wipe after the earlier dark interval?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_193_q03",
+  "field": "question",
+  "old": null,
+  "new": "What happens to the shiny metal bowl containing sliced carrots and onions seen by now?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_219_q06",
+  "field": "question",
+  "old": null,
+  "new": "How many of the person's hands are visible while writing on the notebook during the segment from an earlier view to now?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_278_q11",
+  "field": "question",
+  "old": null,
+  "new": "Is the cloth used to wipe the black object by now the same blue-and-white checkered towel that was on the left counter earlier?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_303_q05",
+  "field": "question",
+  "old": null,
+  "new": "What is inside the light green bowl on the counter by now?",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_09_q07",
+  "field": "option",
+  "old": "No, because the in an earlier view packet is red",
+  "new": "No, because the packet seen in an earlier view is red",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_116_q08",
+  "field": "option",
+  "old": "No, it is a different white pan placed there after in an earlier view",
+  "new": "No, it is a different white pan placed there after an earlier view",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_157_q11",
+  "field": "option",
+  "old": "A new third metal cup that appears on the sink-side counter only after in an earlier view",
+  "new": "A new third metal cup that appears on the sink-side counter only after an earlier view",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_181_q08",
+  "field": "option",
+  "old": "A different shopping bag placed there after in an earlier view",
+  "new": "A different shopping bag placed there after an earlier view",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_269_q10",
+  "field": "option",
+  "old": "No, because all patties are removed before in an earlier view",
+  "new": "No, because all patties are removed before an earlier view",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_cook_275_q04",
+  "field": "option",
+  "old": "It is a new metal spoon that replaced the spatula after in an earlier view",
+  "new": "It is a new metal spoon that replaced the spatula after an earlier view",
+  "reason": "fix_garbled_relative_time"
+ },
+ {
+  "id": "RevisitQA_bike_05_q05",
+  "field": "option",
+  "old": "There is no established change in the tire’s position relative to the rim",
+  "new": "The tire’s position relative to the rim does not change",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_bike_13_q05",
+  "field": "option",
+  "old": "There is no established change in the tire's attachment to the rim",
+  "new": "The tire's attachment to the rim does not change",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_bike_31_q06",
+  "field": "option",
+  "old": "There is no established change in the tire’s position relative to the rim",
+  "new": "The tire’s position relative to the rim does not change",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_bike_35_q06",
+  "field": "option",
+  "old": "No established change in the tire bead’s position is visible",
+  "new": "The tire bead’s position does not change",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_bike_37_q05",
+  "field": "option",
+  "old": "Hands are only touching the tire bead with levers, with no established change to the inner tube",
+  "new": "Hands are only touching the tire bead with levers, leaving the inner tube unchanged",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_bike_51_q10",
+  "field": "option",
+  "old": "The tire bead is being worked with the lever, but no seating result is established",
+  "new": "The tire bead is being worked with the lever and is not yet seated",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_cook_15_q10",
+  "field": "option",
+  "old": "No, the packet is opened but the actual addition into the pot is not shown",
+  "new": "No, the packet is opened but nothing is added to the pot",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_cook_240_q08",
+  "field": "option",
+  "old": "It changes from off to running, but the exact moment it is turned off between an earlier view and now is not shown",
+  "new": "It changes from off to running and is turned off again before now",
+  "reason": "rephrase_abstention_like_distractor"
+ },
+ {
+  "id": "RevisitQA_health_64_q12",
+  "field": "option",
+  "old": "No, the hands move directly to compressions with no airway maneuver shown",
+  "new": "No, the hands move directly to compressions without an airway maneuver",
+  "reason": "rephrase_abstention_like_distractor"
+ }
+]

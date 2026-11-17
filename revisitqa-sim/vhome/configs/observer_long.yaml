@@ -1,0 +1,44 @@
+scene: 0
+seed: 42
+observer_only: true
+debug: true
+observer:
+  resource: Chars/Male1
+  room: kitchen
+  position: [-1.3, 0, -3.8]
+injector:
+  resource: Chars/Female1
+  room: bedroom
+  position: [-5.77, 0, -8.29]
+look_at_id: 313
+target_id: 326
+surface_id: 238
+container_id: 305
+away_id: 268
+away_anchor_id: 426
+observer_anchor_id: 266
+monitor_ids: [2, 238, 305]
+render:
+  width: 640
+  height: 480
+  fps: 20
+  save_pose_data: true
+camera:
+  name: REAR_OVERHEAD
+  position: [0.7, 2.15, -1.7]
+  rotation: [25, 0, 0]
+  fov: 95
+evidence:
+  min_visible_pixels: 40
+  hold_seconds: 0.15
+
+continuous_observer: true
+patrol_routes:
+  setup: [264]
+  hidden: [372, 368, 372, 368, 372]
+  return: [264, 266, 264, 268, 266]
+
+# Each disappearance and reappearance counts as one event.
+event_count: 10
+event_interval_seconds: 28.0
+event_interval_tolerance_seconds: 6.0

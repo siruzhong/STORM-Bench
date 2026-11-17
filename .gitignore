@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv*/
+outputs/
+ckpt/
+*.egg-info/
+
+# Full HF checkout is not part of the code release.
+data/eval_video/
+
+# Local pull caches
+.DS_Store

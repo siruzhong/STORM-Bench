@@ -1,0 +1,8 @@
+[
+ {"id": "RevisitQA_sports_soccer_22_q03", "field": "question", "old": "At this moment, with the blue disc marker directly beside the ball, which training marker is closest to the camera wearer's soccer ball?", "new": "At this moment, which training marker is closest to the camera wearer's soccer ball?", "reason": "stem_states_answer"},
+ {"id": "RevisitQA_cook_17_q10", "field": "question", "old": "What is the last ingredient added in the entire episode after by now?", "new": "What is the last ingredient added in the entire episode?", "reason": "fix_garbled_relative_time"},
+ {"id": "RevisitQA_bike_03_q04", "field": "option", "old": "Neither action is visible", "new": "Pulling the tube out of the tire", "reason": "order_options_must_name_both_stem_events"},
+ {"id": "RevisitQA_cook_10_q09", "field": "option", "old": "Neither action is visible in the frames", "new": "Kneading/mixing the dough by hand", "reason": "order_options_must_name_both_stem_events"},
+ {"id": "RevisitQA_cook_107_q10", "field": "option", "old": "Reaching for the bottle", "new": "Placing the bottle on the counter", "reason": "order_options_must_name_both_stem_events"},
+ {"id": "RevisitQA_health_77_q09", "field": "option", "old": "Neither action occurs before the query time", "new": "The right hand holding the clear plastic funnel-tube up toward the camera happens later", "reason": "order_options_must_name_both_stem_events"}
+]

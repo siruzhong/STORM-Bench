@@ -1,0 +1,1941 @@
+[
+ {
+  "id": "RevisitQA_bike_02_q07",
+  "field": "option",
+  "old": "At 0.0s: folded red cloth with light border stain, held in right hand; at 19.0s: same stained cloth gripped in right hand near the cassette.",
+  "new": "At 0.0s: folded red cloth with a light border stain, held flat in the right hand; at 19.0s: same stained cloth gripped tightly in the right hand near the cassette.",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_03_q03",
+  "field": "option",
+  "old": "Black",
+  "new": "Matte black",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_03_q04",
+  "field": "option",
+  "old": "Both occur at the same sampled time",
+  "new": "Both occur together at the same sampled time",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_03_q08",
+  "field": "option",
+  "old": "It is installed in the blue Aventon bike’s frame/dropout on the stand",
+  "new": "It is installed in the blue Aventon bike’s frame/dropout while the bike sits on the stand",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_04_q03",
+  "field": "option",
+  "old": "Gray and rubberized",
+  "new": "Gray and rubberized with ribs",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_09_q03",
+  "field": "option",
+  "old": "The same lubricant bottle is held against the chain the whole time, applying liquid continuously.",
+  "new": "The same lubricant bottle is held against the chain the whole time, applying liquid continuously along the links.",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_11_q14",
+  "field": "option",
+  "old": "It is the same white pedal with a clear reflector",
+  "new": "It is the same white pedal with a clear plastic reflector",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_12_q02",
+  "field": "option",
+  "old": "Black",
+  "new": "Dark gray",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_24_q13",
+  "field": "option",
+  "old": "Black handle with red mid-stripe, black shaft",
+  "new": "Black handle with a red mid-stripe and a black shaft",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_25_q06",
+  "field": "option",
+  "old": "Smooth black tire with a white sidewall stripe and black hub",
+  "new": "Smooth black tire with a thin white sidewall stripe and a black hub",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_35_q02",
+  "field": "option",
+  "old": "Blue",
+  "new": "Navy blue",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_35_q03",
+  "field": "option",
+  "old": "Tire bead fully seated around the rim with both hands holding it elevated",
+  "new": "Tire bead fully seated around the rim with both hands holding the wheel elevated",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_37_q11",
+  "field": "option",
+  "old": "Gray smooth tire on silver rim",
+  "new": "Gray smooth tire on a silver rim",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_39_q07",
+  "field": "option",
+  "old": "Hands re-secure the brake after wheel installation",
+  "new": "Hands re-secure the brake caliper after the wheel installation",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_42_q01",
+  "field": "option",
+  "old": "White",
+  "new": "Off-white",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_43_q04",
+  "field": "option",
+  "old": "Green-handled",
+  "new": "Bright green-handled",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_44_q01",
+  "field": "option",
+  "old": "Green",
+  "new": "Dark green",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_46_q03",
+  "field": "option",
+  "old": "RALEIGH USA",
+  "new": "RALEIGH USA SPORT",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_51_q12",
+  "field": "option",
+  "old": "Mounting the wheel onto the bicycle",
+  "new": "Mounting the wheel back onto the bicycle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_52_q02",
+  "field": "option",
+  "old": "It is coiled on the concrete near the right side of the wheel by the frame",
+  "new": "It is coiled on the concrete near the right side of the wheel by the bicycle frame",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_55_q07",
+  "field": "option",
+  "old": "Blue",
+  "new": "Light blue",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_09_q06",
+  "field": "option",
+  "old": "Silver, white, and gray handles",
+  "new": "Silver, white, and light gray handles",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_13_q02",
+  "field": "option",
+  "old": "Blue",
+  "new": "Royal blue",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_14_q07",
+  "field": "option",
+  "old": "Propped on edge against the person’s right shoe on the floor.",
+  "new": "Propped on edge against the person’s right shoe on the gray floor.",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_18_q03",
+  "field": "option",
+  "old": "The inner tube is partially tucked under one tire bead",
+  "new": "The inner tube is partially tucked back under one tire bead",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_23_q01",
+  "field": "option",
+  "old": "A cardboard AVENTON box",
+  "new": "A cardboard AVENTON shipping box",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_24_q01",
+  "field": "option",
+  "old": "It is only partly positioned against the frame with a visible gap around the axle region.",
+  "new": "It is only partly positioned against the frame with a visible gap around the whole axle region.",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_28_q01",
+  "field": "option",
+  "old": "Silver wrench set",
+  "new": "Silver combination wrench set",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_32_q03",
+  "field": "option",
+  "old": "A blue floor pump leaning against the cabinet",
+  "new": "A blue floor pump leaning against the tall cabinet",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_35_q01",
+  "field": "option",
+  "old": "Pink",
+  "new": "Light pink",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_38_q05",
+  "field": "option",
+  "old": "A tan sidewall patch beside the knobby tread",
+  "new": "A tan sidewall patch right beside the knobby tread",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_38_q11",
+  "field": "option",
+  "old": "A black rubber sports watch with a yellow face",
+  "new": "A black rubber sports watch with a bright yellow face",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_40_q08",
+  "field": "option",
+  "old": "The wheel is hung on a blue repair stand",
+  "new": "The wheel is hung on the blue repair stand clamp",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_43_q09",
+  "field": "option",
+  "old": "The inner tube is coupled to the pump hose in the person’s hand",
+  "new": "The inner tube is coupled to the pump hose held in the person’s hand",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_44_q06",
+  "field": "option",
+  "old": "Yellow-and-black handled lever resting on the workbench near the white bottles",
+  "new": "Yellow-and-black handled lever resting flat on the workbench near the white bottles",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_49_q05",
+  "field": "option",
+  "old": "The orange pump body with a black handle used by the worker near the wheel",
+  "new": "The orange pump body with a black T-handle used by the worker right near the wheel",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_52_q07",
+  "field": "option",
+  "old": "Small unseated section at the rim → large unseated section at the rim",
+  "new": "Small unseated section at the rim → much larger unseated section at the rim",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_53_q01",
+  "field": "option",
+  "old": "Shimano",
+  "new": "Shimano Pro",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_54_q12",
+  "field": "option",
+  "old": "A rim with a silver hub, evenly spaced thin spokes, and a red paper tag near the valve",
+  "new": "A rim with a silver hub, evenly spaced thin spokes, and a small red paper tag tied near the valve",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_57_q08",
+  "field": "option",
+  "old": "Applying liquid from the bottle to the axle area",
+  "new": "Applying liquid from the small bottle to the axle area",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_58_q06",
+  "field": "option",
+  "old": "Pumping air into the new tube on the floor",
+  "new": "Pumping air into the new tube lying on the floor",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_60_q02",
+  "field": "option",
+  "old": "A black aerosol can with a yellow cap",
+  "new": "A black aerosol can with a yellow plastic cap",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_61_q01",
+  "field": "option",
+  "old": "A black tire lever set",
+  "new": "A black plastic tire lever set",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_14_q10",
+  "field": "option",
+  "old": "During the floor tire handling immediately after the gap.",
+  "new": "During the floor tire handling immediately after the first black gap.",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_22_q03",
+  "field": "option",
+  "old": "red cloth held away from chain → red cloth held against chain",
+  "new": "red cloth held away from the chain → red cloth held against the chain",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_27_q03",
+  "field": "option",
+  "old": "The black tire is fully separated from the wheel and resting on the black mat",
+  "new": "The black tire is fully separated from the wheel and resting flat on the black mat",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_33_q05",
+  "field": "option",
+  "old": "Bead outside the rim channel → bead fully seated into the rim channel",
+  "new": "Bead lifted outside the rim channel → bead fully seated back into the rim channel",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_34_q09",
+  "field": "option",
+  "old": "Rubbing the gray abrasive pad on the tube/valve area",
+  "new": "Rubbing the gray abrasive pad over the tube near the valve area",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_34_q10",
+  "field": "option",
+  "old": "First inserting the tire lever into the bead",
+  "new": "First inserting the yellow tire lever into the tire bead",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_37_q02",
+  "field": "option",
+  "old": "Resting on the wooden workbench among the tools",
+  "new": "Resting on the wooden workbench among the other tools",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_41_q04",
+  "field": "option",
+  "old": "Wedged between the chainstay and the rear tire",
+  "new": "Wedged tightly between the chainstay and the rear tire",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_41_q06",
+  "field": "option",
+  "old": "It is still fully seated in the rear dropouts with the axle engaged",
+  "new": "It is still fully seated in the rear dropouts with the axle nuts engaged",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_57_q07",
+  "field": "option",
+  "old": "A matte yellow curved guard bolted to the chainstay above spokes",
+  "new": "A matte yellow curved guard bolted to the chainstay just above the spokes",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_58_q01",
+  "field": "option",
+  "old": "Yellow work gloves",
+  "new": "Yellow leather work gloves",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_58_q12",
+  "field": "option",
+  "old": "A white valve cap centered near the hub",
+  "new": "A white plastic valve cap centered near the hub",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_59_q10",
+  "field": "option",
+  "old": "The hand reaches to the table near the water bottle at 34.0 seconds",
+  "new": "The hand reaches to the table right next to the water bottle at 34.0 seconds",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_07_q06",
+  "field": "option",
+  "old": "Rim held in hands with tire fully seated around it → rim held in hands with tire fully seated around it",
+  "new": "Rim held in both hands with tire fully seated around it → rim held in both hands with tire still fully seated around it",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_09_q01",
+  "field": "option",
+  "old": "A black grease tube with a red cap",
+  "new": "A black grease tube with a red screw cap",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_13_q07",
+  "field": "option",
+  "old": "0.0s gray rim with white rim bed and black solid rotor; 44.0s gray rim with white rim bed and black solid rotor",
+  "new": "0.0s gray rim with a white rim bed and a black solid rotor; 44.0s gray rim with a white rim bed and a black solid rotor",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_20_q14",
+  "field": "option",
+  "old": "At t=1.0–2.0 the rear tire shows 'Maxxis' sidewall text near the cassette; at t=32.0–33.0 that same 'Maxxis' sidewall text remains on the wheel mounted in the stand.",
+  "new": "At t=1.0–2.0 the rear tire shows white 'Maxxis' sidewall text near the cassette; at t=32.0–33.0 that same white 'Maxxis' sidewall text remains on the wheel mounted in the stand.",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_22_q08",
+  "field": "option",
+  "old": "A black chain tool in a red case",
+  "new": "A black chain tool inside a red zip case",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_23_q02",
+  "field": "option",
+  "old": "A gray hoodie, khaki pants, and black shoes",
+  "new": "A gray hoodie, khaki pants, and black leather shoes",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_28_q04",
+  "field": "option",
+  "old": "The tire is partly separated from the rim with a loop of tube exposed beside it",
+  "new": "The tire is partly separated from the rim with a long loop of tube exposed beside it",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_32_q08",
+  "field": "option",
+  "old": "Using the blue bench vise to clamp the tube",
+  "new": "Using the blue bench vise to clamp the inner tube",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_33_q10",
+  "field": "option",
+  "old": "Looking at the shop with the wheel held overhead",
+  "new": "Looking around the shop with the wheel held up overhead",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_53_q09",
+  "field": "option",
+  "old": "Attaching the chuck for the first time",
+  "new": "Attaching the pump chuck for the first time",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_03_q14",
+  "field": "option",
+  "old": "Silver rim with solid rotor and smooth black sidewall",
+  "new": "Silver rim with a solid rotor and a smooth, plain black sidewall",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_06_q07",
+  "field": "option",
+  "old": "It is a different tan-sidewall rear wheel on a black-framed bicycle",
+  "new": "It is a different tan-sidewall rear wheel mounted on a black-framed bicycle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_11_q03",
+  "field": "option",
+  "old": "Held by one hand below the frame with its axle hanging clear of the dropouts",
+  "new": "Held by one hand below the frame with its axle hanging well clear of both dropouts",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_bike_14_q01",
+  "field": "option",
+  "old": "The tire is placed onto the rim and then removed from the rim.",
+  "new": "The tire is placed onto the rim and then removed from the rim again.",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_01_q04",
+  "field": "option",
+  "old": "A white refrigerator",
+  "new": "A tall white refrigerator",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_04_q02",
+  "field": "option",
+  "old": "The left pot on the stove has pasta at the start but not later",
+  "new": "The left pot on the stove has pasta in it at the start but not later",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_110_q05",
+  "field": "option",
+  "old": "It shifts from the front-right burner to being placed next to the spice jars",
+  "new": "It shifts from the front-right burner to being placed down next to the spice jars",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_119_q01",
+  "field": "option",
+  "old": "Fairy",
+  "new": "Fairy Original",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_120_q04",
+  "field": "option",
+  "old": "It was running steadily, then reduced to a trickle",
+  "new": "It was running steadily, then reduced to a thin trickle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_124_q04",
+  "field": "option",
+  "old": "The top rack is pulled out and the door is closed",
+  "new": "The top rack is pulled out and the door is fully closed",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_125_q07",
+  "field": "option",
+  "old": "Blue",
+  "new": "Light blue",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_134_q03",
+  "field": "option",
+  "old": "It moves from the board near the bottle into the onion bowl by the wall",
+  "new": "It moves from the board near the bottle into the onion bowl standing by the wall",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_140_q02",
+  "field": "option",
+  "old": "Red with a silver handle",
+  "new": "Red with a long silver handle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_141_q07",
+  "field": "option",
+  "old": "It decreased by one egg",
+  "new": "It decreased by only one egg",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_141_q11",
+  "field": "option",
+  "old": "the metal mixing bowl behind the cutting board",
+  "new": "the metal mixing bowl just behind the cutting board",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_145_q12",
+  "field": "option",
+  "old": "The yellow sponge",
+  "new": "The yellow scrub sponge",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_149_q12",
+  "field": "option",
+  "old": "On the blue cutting board to the right of the onion halves",
+  "new": "On the blue cutting board just to the right of the onion halves",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_150_q02",
+  "field": "option",
+  "old": "Gits",
+  "new": "Gits Foods",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_150_q09",
+  "field": "option",
+  "old": "Small dark brown seeds",
+  "new": "Small round dark brown seeds",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_151_q01",
+  "field": "option",
+  "old": "1 zone shows 00 and the other shows 1000",
+  "new": "1 zone shows 00 while the other one shows 1000",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_151_q08",
+  "field": "option",
+  "old": "Chopped onion is added first, then the cooker is moved",
+  "new": "Chopped onion is added first, then the pressure cooker is moved",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_152_q04",
+  "field": "option",
+  "old": "a purple cloth",
+  "new": "a folded purple cloth",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_156_q05",
+  "field": "option",
+  "old": "800",
+  "new": "800 W",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_160_q02",
+  "field": "option",
+  "old": "Brown",
+  "new": "Dark brown",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_168_q04",
+  "field": "option",
+  "old": "White",
+  "new": "Off-white",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_173_q02",
+  "field": "option",
+  "old": "the toaster oven on the right",
+  "new": "the toaster oven on the right side",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_175_q11",
+  "field": "option",
+  "old": "It was moved from the counter to the window sill",
+  "new": "It was moved from the counter to the kitchen window sill",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_178_q03",
+  "field": "option",
+  "old": "It moves from the large pasta-and-peas pot into a small metal bowl and the large pot becomes empty",
+  "new": "It moves from the large pasta-and-peas pot into a small metal bowl and the large pot becomes completely empty",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_181_q08",
+  "field": "option",
+  "old": "A different shopping bag placed there after an earlier view",
+  "new": "A different blue shopping bag placed there after an earlier view",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_187_q02",
+  "field": "option",
+  "old": "A dinosaur",
+  "new": "A green dinosaur",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_191_q01",
+  "field": "option",
+  "old": "Black",
+  "new": "Matte black",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_198_q13",
+  "field": "option",
+  "old": "Inside the stainless steel utensil holder",
+  "new": "Inside the tall stainless steel utensil holder",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_200_q05",
+  "field": "option",
+  "old": "It is turned on with its indicator pointing away from the frying pan",
+  "new": "It is turned on high with its indicator pointing away from the frying pan",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_209_q13",
+  "field": "option",
+  "old": "the white kettle on the back burner",
+  "new": "the white kettle on the back-left burner",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_213_q01",
+  "field": "option",
+  "old": "A folded white dish towel with dark grid lines",
+  "new": "A folded white dish towel with thin dark grid lines",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_218_q04",
+  "field": "option",
+  "old": "On the black countertop left of the sink faucet",
+  "new": "On the black countertop just left of the sink faucet",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_222_q02",
+  "field": "option",
+  "old": "A turquoise cutting board",
+  "new": "A turquoise plastic cutting board",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_231_q09",
+  "field": "option",
+  "old": "It is unlit at the start, and later it glows bright red while the kettle stays in the same spot",
+  "new": "It is unlit at the start, and later it glows bright red while the kettle stays in exactly the same spot",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_232_q06",
+  "field": "option",
+  "old": "It brightens only briefly before returning to the original darkness",
+  "new": "It brightens only very briefly before returning to the original darkness",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_234_q06",
+  "field": "option",
+  "old": "Held in the person’s left hand gripping the frying pan handle",
+  "new": "Held in the person’s left hand while gripping the frying pan handle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_243_q02",
+  "field": "option",
+  "old": "The closed dishwasher is opened and the rack is pulled out",
+  "new": "The closed dishwasher is opened and the lower rack is pulled out",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_248_q05",
+  "field": "option",
+  "old": "It had visible skin fragments, then it became smooth and free of fragments",
+  "new": "It had visible skin fragments, then it became smooth and entirely free of fragments",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_248_q11",
+  "field": "option",
+  "old": "There are two phones visible and no other electronics",
+  "new": "There are two phones visible and no other electronic devices",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_258_q03",
+  "field": "option",
+  "old": "Neither hand",
+  "new": "Neither of the hands",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_265_q08",
+  "field": "option",
+  "old": "Between the oil bottle and the herb jar, behind the bowl",
+  "new": "Between the oil bottle and the herb jar, just behind the bowl",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_268_q03",
+  "field": "option",
+  "old": "a blue bottle with a white cap",
+  "new": "a blue bottle with a white screw cap",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_269_q08",
+  "field": "option",
+  "old": "It was crumpled off to one side of the tray and later is spread evenly over all the food",
+  "new": "It was crumpled off to one side of the tray and later is spread evenly over all of the food",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_26_q08",
+  "field": "option",
+  "old": "It has been moved closer to the edge of the counter",
+  "new": "It has been moved slightly closer to the edge of the counter",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_270_q01",
+  "field": "option",
+  "old": "TICK TEA",
+  "new": "TICK TEA CO",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_273_q04",
+  "field": "option",
+  "old": "A blue box with white “TEA TOCK” text and a green circular mark",
+  "new": "A blue box with white “TEA TOCK” text and a small green circular mark",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_279_q02",
+  "field": "option",
+  "old": "White",
+  "new": "Off-white",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_284_q01",
+  "field": "option",
+  "old": "On the black utensil tray",
+  "new": "On the black plastic utensil tray",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_304_q06",
+  "field": "option",
+  "old": "Blue",
+  "new": "Light blue",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_308_q07",
+  "field": "option",
+  "old": "Black",
+  "new": "Dark gray",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_30_q07",
+  "field": "option",
+  "old": "Next to the milk jug on the gas stove",
+  "new": "Next to the milk jug on the gas stove top",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_310_q01",
+  "field": "option",
+  "old": "Dark brown",
+  "new": "Dark chocolate brown",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_312_q12",
+  "field": "option",
+  "old": "No, the tray in the sink was discarded off-screen",
+  "new": "No, the tray in the sink was carried away and discarded off-screen",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_36_q04",
+  "field": "option",
+  "old": "Loose unshaped mixture",
+  "new": "Loose unshaped wet mixture",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_40_q12",
+  "field": "option",
+  "old": "On the back-right burner",
+  "new": "On the back-right gas burner",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_54_q06",
+  "field": "option",
+  "old": "It was empty earlier and is now full",
+  "new": "It was empty earlier and is now full of food",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_55_q13",
+  "field": "option",
+  "old": "Vacuuming the black striped mat under the sink",
+  "new": "Vacuuming the black striped mat right under the sink",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_58_q03",
+  "field": "option",
+  "old": "On the counter beside the microwave and baguettes",
+  "new": "On the counter beside the microwave and the baguettes",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_60_q05",
+  "field": "option",
+  "old": "It goes from having a glass lid covering the pot to no lid present",
+  "new": "It goes from having a glass lid covering the pot to no lid present at all",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_69_q07",
+  "field": "option",
+  "old": "A wooden rolling pin",
+  "new": "A long wooden rolling pin",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_74_q10",
+  "field": "option",
+  "old": "the bowl of chopped red items",
+  "new": "the bowl of chopped red vegetables",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_81_q02",
+  "field": "option",
+  "old": "A green packet",
+  "new": "A green plastic packet",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_89_q11",
+  "field": "option",
+  "old": "The white baking dish is removed from the oven",
+  "new": "The white baking dish is removed from the hot oven",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_05_q14",
+  "field": "option",
+  "old": "Next to the dish towel rack beneath the open drawer",
+  "new": "Next to the dish towel rack right beneath the open drawer",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_10_q04",
+  "field": "option",
+  "old": "It is plain off-white with no visible rim pattern",
+  "new": "It is plain off-white with no visible pattern on its rim",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_112_q04",
+  "field": "option",
+  "old": "The machine is not on the counter",
+  "new": "The machine is not on the counter anymore",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_113_q04",
+  "field": "option",
+  "old": "On the counter beside the rice cooker and red kettle",
+  "new": "On the counter beside the rice cooker and the red kettle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_118_q06",
+  "field": "option",
+  "old": "It starts with grounds and water mixed and later is being drained into the glass pot",
+  "new": "It starts with grounds and water mixed and later is being drained down into the glass pot",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_144_q01",
+  "field": "option",
+  "old": "It moves from the dish rack bowl to the left countertop",
+  "new": "It moves from the dish rack bowl to the left side countertop",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_150_q14",
+  "field": "option",
+  "old": "A chef’s knife",
+  "new": "A large chef’s knife",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_156_q08",
+  "field": "option",
+  "old": "It has been scraped into a pile",
+  "new": "It has been scraped into a single pile",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_164_q06",
+  "field": "option",
+  "old": "On the induction burner beside the pressure cooker",
+  "new": "On the induction burner right beside the pressure cooker",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_171_q10",
+  "field": "option",
+  "old": "Move the green oven mitt to the stove",
+  "new": "Move the green oven mitt over to the stove",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_174_q13",
+  "field": "option",
+  "old": "On the wooden counter directly beside the microwave",
+  "new": "On the wooden counter directly beside the white microwave",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_184_q10",
+  "field": "option",
+  "old": "Lifting the oil bottle near the green oven mitts",
+  "new": "Lifting the oil bottle up near the green oven mitts",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_185_q07",
+  "field": "option",
+  "old": "The blue-lidded saucepan is placed onto the scale",
+  "new": "The blue-lidded saucepan is placed onto the kitchen scale",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_188_q09",
+  "field": "option",
+  "old": "Hanging from a hook under the shelf",
+  "new": "Hanging from a metal hook under the shelf",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_19_q03",
+  "field": "option",
+  "old": "Lavazza",
+  "new": "Lavazza Oro",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_210_q06",
+  "field": "option",
+  "old": "On the white plate next to the red onion",
+  "new": "On the white plate right next to the red onion",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_217_q06",
+  "field": "option",
+  "old": "a clear glass",
+  "new": "a clear drinking glass",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_21_q09",
+  "field": "option",
+  "old": "Lavazza",
+  "new": "Lavazza Oro",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_221_q03",
+  "field": "option",
+  "old": "It changes from held in one hand while pouring to flipped open for pouring",
+  "new": "It changes from held in one hand while pouring to flipped open for pouring again",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_235_q02",
+  "field": "option",
+  "old": "diced tomatoes",
+  "new": "diced red tomatoes",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_236_q02",
+  "field": "option",
+  "old": "A tall white paper towel roll",
+  "new": "A tall white paper towel roll holder",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_244_q07",
+  "field": "option",
+  "old": "Inside the white container being scrubbed",
+  "new": "Inside the white plastic container being scrubbed",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_246_q05",
+  "field": "option",
+  "old": "It goes from being propped open with its inner side being wiped to being closed with a dry, shiny surface",
+  "new": "It goes from being propped open with its inner side being wiped to being closed with a dry, shiny outer surface",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_262_q04",
+  "field": "option",
+  "old": "PARSLEY",
+  "new": "FLAT PARSLEY",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_28_q10",
+  "field": "option",
+  "old": "Propped against the food processor by the orange",
+  "new": "Propped against the food processor right by the orange",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_306_q12",
+  "field": "option",
+  "old": "Near the stove on the right side, beside the white electric kettle",
+  "new": "Near the stove on the right side, right beside the white electric kettle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_308_q08",
+  "field": "option",
+  "old": "Partially open with only a narrow gap",
+  "new": "Partially open with only a narrow gap showing",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_312_q02",
+  "field": "option",
+  "old": "a dark-colored bowl",
+  "new": "a deep dark-colored bowl",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_32_q13",
+  "field": "option",
+  "old": "The clear glass standing on the wooden counter near the cocoa can",
+  "new": "The clear glass standing upright on the wooden counter near the cocoa can",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_34_q02",
+  "field": "option",
+  "old": "Whole oranges in orange netting",
+  "new": "Whole oranges packed in orange netting",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_47_q08",
+  "field": "option",
+  "old": "The white cutting board",
+  "new": "The white plastic cutting board",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_57_q05",
+  "field": "option",
+  "old": "Chocolate brownies with powdered sugar",
+  "new": "Chocolate brownies dusted with powdered sugar",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_63_q02",
+  "field": "option",
+  "old": "A toaster",
+  "new": "A two-slot toaster",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_69_q02",
+  "field": "option",
+  "old": "It starts open with its door swung outward, then its door is closed hiding the interior",
+  "new": "It starts open with its door swung outward, then its door is closed hiding the whole interior",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_69_q05",
+  "field": "option",
+  "old": "In the person’s hands during the earlier action",
+  "new": "In the person’s hands as during the earlier action",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_74_q09",
+  "field": "option",
+  "old": "Red with yellow and white markings",
+  "new": "Red with bright yellow and white markings",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_75_q04",
+  "field": "option",
+  "old": "A different spoon that was always by the sink",
+  "new": "A different spoon that was always lying by the sink",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_76_q07",
+  "field": "option",
+  "old": "Inside the clear mixing bowl with other metal utensils",
+  "new": "Inside the clear mixing bowl together with other metal utensils",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_78_q02",
+  "field": "option",
+  "old": "The foil is torn into several small pieces rather than remaining intact across the tray",
+  "new": "The foil is torn into several small pieces rather than remaining intact across the whole tray",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_90_q13",
+  "field": "option",
+  "old": "Putting a fork into the top rack",
+  "new": "Putting a fork into the dishwasher top rack",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_94_q03",
+  "field": "option",
+  "old": "It starts open and is pushed closed by now",
+  "new": "It starts open and is pushed fully closed by now",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_97_q06",
+  "field": "option",
+  "old": "Scrubbing the sink with a sponge",
+  "new": "Scrubbing the sink basin with a sponge",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_107_q08",
+  "field": "option",
+  "old": "A white paper-towel roll",
+  "new": "A tall white paper-towel roll",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_117_q01",
+  "field": "option",
+  "old": "a white microwave",
+  "new": "a small white microwave",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_121_q07",
+  "field": "option",
+  "old": "Inside the larger stainless steel sink basin near the drain",
+  "new": "Inside the larger stainless steel sink basin right near the drain",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_124_q01",
+  "field": "option",
+  "old": "Refrigerator",
+  "new": "Tall refrigerator",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_129_q14",
+  "field": "option",
+  "old": "Inside the main sink basin under running water",
+  "new": "Inside the main sink basin under the running water",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_12_q02",
+  "field": "option",
+  "old": "the glass jar with a lid",
+  "new": "the tall glass jar with a lid",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_142_q08",
+  "field": "option",
+  "old": "On the white cutting board across from the stove",
+  "new": "On the white cutting board directly across from the stove",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_142_q09",
+  "field": "option",
+  "old": "It is cooked into a solid omelet in the pan",
+  "new": "It is cooked into a solid omelet in the frying pan",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_144_q06",
+  "field": "option",
+  "old": "the clear plastic bottle on the windowsill",
+  "new": "the clear plastic bottle standing on the windowsill",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_144_q11",
+  "field": "option",
+  "old": "The white caddy in the dish rack",
+  "new": "The white plastic caddy in the dish rack",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_150_q07",
+  "field": "option",
+  "old": "the spice packet",
+  "new": "the opened spice packet",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_151_q05",
+  "field": "option",
+  "old": "On the induction stovetop beside the frying pan",
+  "new": "On the induction stovetop right beside the frying pan",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_153_q07",
+  "field": "option",
+  "old": "It is placed on the blue cutting board near the knife",
+  "new": "It is placed on the blue cutting board near the chef's knife",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_163_q02",
+  "field": "option",
+  "old": "A metal spoon",
+  "new": "A long metal spoon",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_174_q07",
+  "field": "option",
+  "old": "It is moved from the clear bowl into the bowl on the digital scale",
+  "new": "It is moved from the clear bowl into the patterned bowl on the digital scale",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_176_q13",
+  "field": "option",
+  "old": "The pasta package is opened on the counter",
+  "new": "The pasta package is torn open on the kitchen counter",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_194_q01",
+  "field": "option",
+  "old": "a clear plastic bottle",
+  "new": "a clear plastic water bottle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_198_q05",
+  "field": "option",
+  "old": "They start spread across the food’s top and end up heaped in the center of the food",
+  "new": "They start spread across the food’s top and end up heaped in the very center of the food",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_19_q05",
+  "field": "option",
+  "old": "In the person’s right hand above the frying pan with minced meat",
+  "new": "In the person’s right hand held above the frying pan with minced meat",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_203_q04",
+  "field": "option",
+  "old": "Inside the small glass on the windowsill",
+  "new": "Inside the small drinking glass on the windowsill",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_229_q05",
+  "field": "option",
+  "old": "Some are in the metal mixing bowl and some are in the white colander",
+  "new": "Some are in the metal mixing bowl and some are still in the white colander",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_23_q05",
+  "field": "option",
+  "old": "It is plugged into the wall socket",
+  "new": "It is plugged into the nearby wall socket",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_24_q13",
+  "field": "option",
+  "old": "A spatula",
+  "new": "A flat spatula",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_266_q06",
+  "field": "option",
+  "old": "Standing in the gray knife block with the other knives",
+  "new": "Standing upright in the gray knife block with the other knives",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_270_q07",
+  "field": "option",
+  "old": "a can of tomatoes",
+  "new": "a can of chopped tomatoes",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_271_q05",
+  "field": "option",
+  "old": "It is resting beside the knife with no motion",
+  "new": "It is resting beside the knife with no visible motion",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_282_q15",
+  "field": "option",
+  "old": "The spice packet held over the scale bowl",
+  "new": "The spice packet held up high over the scale bowl",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_298_q02",
+  "field": "option",
+  "old": "A clear plastic bottle",
+  "new": "A clear plastic water bottle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_301_q07",
+  "field": "option",
+  "old": "The jar is removed from the base and is being rinsed near the sink",
+  "new": "The jar is removed from the base and is being rinsed out near the sink",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_306_q08",
+  "field": "option",
+  "old": "On the black mat beside the patterned teapot and beige kettle",
+  "new": "On the black mat beside the patterned teapot and the beige kettle",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_cook_314_q03",
+  "field": "option",
+  "old": "They were turned upside down on the counter",
+  "new": "They were turned upside down on the kitchen counter",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_01_q10",
+  "field": "option",
+  "old": "A blue curved stripe on the cassette body",
+  "new": "A thin blue curved stripe on the cassette body",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_02_q02",
+  "field": "option",
+  "old": "BINAXNOW",
+  "new": "BINAXNOW PRO",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_05_q05",
+  "field": "option",
+  "old": "3: a cassette, a foil packet, and a vial",
+  "new": "3: a cassette, a foil packet, and a small vial",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_17_q01",
+  "field": "option",
+  "old": "A black phone and yellow-handled scissors",
+  "new": "A black phone and a pair of yellow-handled scissors",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_17_q09",
+  "field": "option",
+  "old": "Tearing open a silver foil packet with both hands",
+  "new": "Tearing open a small silver foil packet with both hands",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_22_q01",
+  "field": "option",
+  "old": "Blue-and-white striped",
+  "new": "Blue-and-white vertically striped",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_22_q07",
+  "field": "option",
+  "old": "Placed on the table beside the glasses and box",
+  "new": "Placed flat on the table beside the glasses and box",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_23_q04",
+  "field": "option",
+  "old": "Toward the mannequin’s upper left",
+  "new": "Toward the mannequin’s upper left side",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_28_q01",
+  "field": "option",
+  "old": "A white shirt and blue shorts",
+  "new": "A white shirt and blue athletic shorts",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_30_q06",
+  "field": "option",
+  "old": "From facing straight toward the camera to facing away from the camera",
+  "new": "From facing straight toward the camera to facing directly away from the camera",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_31_q06",
+  "field": "option",
+  "old": "From adjusting the right camera tripod to pressing one hand on the manikin's forehead",
+  "new": "From adjusting the right camera tripod to pressing one flat hand on the manikin's forehead",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_32_q04",
+  "field": "option",
+  "old": "Hands resting on the camera-wearer's knees",
+  "new": "Hands resting flat on the camera-wearer's knees",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_53_q06",
+  "field": "option",
+  "old": "From no hands touching it to a left hand touching it",
+  "new": "From no hands touching it to a single left hand touching it",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_55_q03",
+  "field": "option",
+  "old": "Sitting next to the pink-capped bottle near the blue-edged packet",
+  "new": "Sitting upright next to the pink-capped bottle near the blue-edged packet",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_55_q08",
+  "field": "option",
+  "old": "A blue logo printed on the bag",
+  "new": "A blue logo printed on the bag front",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_56_q05",
+  "field": "option",
+  "old": "It goes from being sealed inside the box with the instruction booklet to being held in the right hand above the table beside the open box",
+  "new": "It goes from being sealed inside the box with the instruction booklet to being held in the right hand just above the table beside the open box",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_56_q06",
+  "field": "option",
+  "old": "It stays sealed and lies on the tabletop",
+  "new": "It stays sealed and lies flat on the tabletop",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_57_q07",
+  "field": "option",
+  "old": "it is the left wrist touching the mannequin's left shoulder",
+  "new": "it is the left wrist touching the top of the mannequin's left shoulder",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_70_q01",
+  "field": "option",
+  "old": "Black",
+  "new": "Matte black",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_71_q08",
+  "field": "option",
+  "old": "Near the top-left corner of the packet",
+  "new": "Near the upper top-left corner of the packet",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_76_q02",
+  "field": "option",
+  "old": "Abbott",
+  "new": "Abbott Labs",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_77_q02",
+  "field": "option",
+  "old": "Black",
+  "new": "Matte black",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_05_q07",
+  "field": "option",
+  "old": "Neither wrist",
+  "new": "Neither of the wrists",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_05_q10",
+  "field": "option",
+  "old": "Applying drops from the tube to the white test cassette",
+  "new": "Applying drops from the small tube to the white test cassette",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_06_q05",
+  "field": "option",
+  "old": "It starts open and ends with a white cap resting on top of it",
+  "new": "It starts open and ends with a white cap resting loosely on top of it",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_07_q09",
+  "field": "option",
+  "old": "In the right hand above the test card",
+  "new": "In the right hand held above the test card",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_08_q06",
+  "field": "option",
+  "old": "folded shut, with its blank half nearer the pouch",
+  "new": "folded shut, with its blank half facing nearer the pouch",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_health_10_q04",
+  "field": "option",
+  "old": "Beneath the instruction sheet near the person’s lap",
+  "new": "Tucked beneath the instruction sheet near the person’s lap",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_music_02_q09",
+  "field": "option",
+  "old": "The man in the white shirt walks forward toward the keyboard holding a phone",
+  "new": "The man in the white shirt walks forward toward the keyboard while holding a phone",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_music_04_q01",
+  "field": "option",
+  "old": "Resting on the strings near the bridge",
+  "new": "Resting flat on the strings near the bridge",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_music_06_q01",
+  "field": "option",
+  "old": "A spring-loaded black binder clip gripping paper",
+  "new": "A spring-loaded black binder clip gripping the paper",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_music_08_q07",
+  "field": "option",
+  "old": "On the music stand in front of the sheet pages",
+  "new": "On the music stand right in front of the sheet pages",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_music_10_q08",
+  "field": "option",
+  "old": "Only the right hand raised with the index finger pointing",
+  "new": "Only the right hand raised with the index finger pointing up",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_music_14_q02",
+  "field": "option",
+  "old": "On the left side of the music desk beside the closed book",
+  "new": "On the left side of the music desk right beside the closed book",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_18_q04",
+  "field": "option",
+  "old": "A padded wall panel with a large “SF” logo",
+  "new": "A padded blue wall panel with a large “SF” logo",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_25_q05",
+  "field": "option",
+  "old": "It changes from a doorway wall to an empty floor wall",
+  "new": "It changes from a doorway wall to an empty open floor wall",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_32_q08",
+  "field": "option",
+  "old": "Against the far baseline wall under the opposite hoop",
+  "new": "Against the far baseline wall right under the opposite hoop",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_34_q01",
+  "field": "option",
+  "old": "In the dark-shirted player's hands",
+  "new": "In the dark-shirted player's two hands",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_36_q02",
+  "field": "option",
+  "old": "In both shooter's hands in front of the yellow padding",
+  "new": "In both of the shooter's hands in front of the yellow padding",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_38_q01",
+  "field": "option",
+  "old": "Green",
+  "new": "Dark green",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_38_q08",
+  "field": "option",
+  "old": "It bounces off the rim and rolls back to the free-throw line",
+  "new": "It bounces off the rim and rolls straight back to the free-throw line",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_basketball_43_q03",
+  "field": "option",
+  "old": "Black",
+  "new": "Matte black",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_bouldering_01_q07",
+  "field": "option",
+  "old": "It is no longer in contact as both hands reach for an upper purple hold",
+  "new": "It is no longer in contact as both hands reach up for an upper purple hold",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_01_q02",
+  "field": "option",
+  "old": "White",
+  "new": "Off-white",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_02_q03",
+  "field": "option",
+  "old": "It sits on the artificial turf just inside the white curved line",
+  "new": "It sits on the artificial turf just inside the white curved boundary line",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_02_q04",
+  "field": "option",
+  "old": "Farther downfield near the distant yellow cones",
+  "new": "Farther downfield right near the distant yellow cones",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_04_q01",
+  "field": "option",
+  "old": "White",
+  "new": "Off-white",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_06_q04",
+  "field": "option",
+  "old": "Black",
+  "new": "Matte black",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_07_q04",
+  "field": "option",
+  "old": "Behind the cross-hole yellow marker, with the plain-hole marker farther ahead toward the players",
+  "new": "Behind the cross-hole yellow marker, with the plain-hole marker much farther ahead toward the players",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_19_q02",
+  "field": "option",
+  "old": "Straight ahead of the ball, on the far wall",
+  "new": "Straight ahead of the ball, against the far wall",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_19_q07",
+  "field": "option",
+  "old": "On the dark equipment mat",
+  "new": "On the dark rubber equipment mat",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_21_q02",
+  "field": "option",
+  "old": "Blue",
+  "new": "Navy blue",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_21_q03",
+  "field": "option",
+  "old": "Blue discs with black centers",
+  "new": "Blue discs with small black centers",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_23_q08",
+  "field": "option",
+  "old": "It is directly over a white disc",
+  "new": "It is directly over a flat white disc",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_25_q10",
+  "field": "option",
+  "old": "Yellow tape wrapped around all three tripod legs",
+  "new": "Yellow tape wrapped tightly around all three tripod legs",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_26_q01",
+  "field": "option",
+  "old": "White",
+  "new": "Off-white",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_27_q02",
+  "field": "option",
+  "old": "Black",
+  "new": "Matte black",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_29_q04",
+  "field": "option",
+  "old": "One cone lies ahead of the ball, one behind the ball",
+  "new": "One cone lies ahead of the ball, one just behind the ball",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_30_q06",
+  "field": "option",
+  "old": "Far away near the goal by the person under the umbrella",
+  "new": "Far away near the goal by the person standing under the umbrella",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_31_q08",
+  "field": "option",
+  "old": "Left leg in a red sock with a turquoise shoe",
+  "new": "Left leg in a red sock with a bright turquoise shoe",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_32_q01",
+  "field": "option",
+  "old": "In the upper grass near the goal line",
+  "new": "In the upper grass area near the goal line",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_32_q04",
+  "field": "option",
+  "old": "Green",
+  "new": "Dark green",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_32_q06",
+  "field": "option",
+  "old": "It moves from in front of the first cone to behind all cones",
+  "new": "It moves from in front of the first cone to behind all of the cones",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_36_q01",
+  "field": "option",
+  "old": "A white section",
+  "new": "A large white section",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_38_q04",
+  "field": "option",
+  "old": "White",
+  "new": "Off-white",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_38_q05",
+  "field": "option",
+  "old": "Far downfield near the building",
+  "new": "Far downfield right near the building",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_39_q07",
+  "field": "option",
+  "old": "A ball is visible on the far red sideline before the first ball is set on the line",
+  "new": "A ball is visible on the far red sideline well before the first ball is set on the line",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_40_q02",
+  "field": "option",
+  "old": "A black logo on a white shoe",
+  "new": "A black logo on a white running shoe",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_41_q04",
+  "field": "option",
+  "old": "Rolling into the net past the goalkeeper",
+  "new": "Rolling into the net right past the goalkeeper",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_42_q05",
+  "field": "option",
+  "old": "Inside the main goal net near the left post",
+  "new": "Inside the main goal net right near the left post",
+  "reason": "lengthen_distractor_length_cue"
+ },
+ {
+  "id": "RevisitQA_sports_soccer_44_q02",
+  "field": "option",
+  "old": "Kneeling beside the left goalpost",
+  "new": "Kneeling down beside the left goalpost",
+  "reason": "lengthen_distractor_length_cue"
+ }
+]

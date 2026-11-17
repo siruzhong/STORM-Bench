@@ -1,0 +1,219 @@
+schema_version: 1
+
+render:
+  width: 640
+  height: 480
+  field_of_view: 55
+  fps: 20
+
+timing:
+  duration_s: 60
+  duration_range_s: [55, 65]
+  event_count: 10
+  first_event_max_s: 4
+  last_event_min_s: 50
+  max_event_gap_s: 8
+  before_lead_s: 1.05
+  hidden_lead_s: 0.10
+  after_lag_s: 1.20
+  event_jitter_s: 0.45
+
+station:
+  # Receptacles that occur across iTHOR kitchens, living rooms, bedrooms,
+  # and bathrooms.  Empty target_types means any pickupable object on one of
+  # these supporting surfaces may become a tracked target.
+  surface_types:
+    - CounterTop
+    - DiningTable
+    - StoveBurner
+    - CoffeeTable
+    - SideTable
+    - Chair
+    - Sofa
+    - TVStand
+    - Bed
+    - Desk
+    - Dresser
+    - Shelf
+    - Bathtub
+    - BathtubBasin
+    - Floor
+    - HandTowelHolder
+    - Sink
+    - SinkBasin
+    - TowelHolder
+  target_types: []
+  # Four distinct targets are sufficient because extra opportunities are
+  # allocated as a complete disappearance/reappearance pair.
+  min_targets: 4
+  preferred_distance: 0.78
+  min_distance: 0.50
+  max_distance: 1.20
+  horizons: [8, 12, 16, 20, 25, 30]
+  distractor_offsets: [58, -58, 72, -72]
+  max_targets: 18
+  max_position_candidates: 16
+  max_stations_per_target: 3
+  max_total_stations: 18
+
+motion:
+  preferred_speed_mps: 0.42
+  max_segment_speed_mps: 0.85
+  min_station_step_m: 0.35
+  max_station_step_m: 3.5
+  max_station_reuse: 3
+  route_candidate_count: 20000
+  functional_radius_m: 1.8
+
+camera:
+  max_yaw_rate_dps: 210
+  max_yaw_accel_dps2: 1000
+  turn_window_s: 0.62
+  hidden_hold_s: 0.16
+  focus_hold_s: 0.50
+
+events:
+  enabled_types: [disappear, appear]
+  allow_simultaneous: true
+  max_simultaneous: 2
+
+quality:
+  min_target_pixels: 1400
+  min_target_dimension: 28
+  min_edge_margin: 4
+  max_center_distance: 0.90
+  distractor_min_pixels: 160
+  distractor_min_objects: 1
+  max_stationary_fraction: 0.18
+  min_travel_distance_m: 8.0
+
+batch:
+  episode_count: 28
+  max_attempts_per_scene: 4
+  scenes:
+    - FloorPlan1
+    - FloorPlan2
+    - FloorPlan3
+    - FloorPlan4
+    - FloorPlan5
+    - FloorPlan6
+    - FloorPlan7
+    - FloorPlan8
+    - FloorPlan9
+    - FloorPlan10
+    - FloorPlan11
+    - FloorPlan12
+    - FloorPlan13
+    - FloorPlan14
+    - FloorPlan15
+    - FloorPlan16
+    - FloorPlan17
+    - FloorPlan18
+    - FloorPlan19
+    - FloorPlan20
+    - FloorPlan21
+    - FloorPlan22
+    - FloorPlan23
+    - FloorPlan24
+    - FloorPlan25
+    - FloorPlan26
+    - FloorPlan27
+    - FloorPlan28
+    - FloorPlan29
+    - FloorPlan30
+    - FloorPlan201
+    - FloorPlan202
+    - FloorPlan203
+    - FloorPlan204
+    - FloorPlan205
+    - FloorPlan206
+    - FloorPlan207
+    - FloorPlan208
+    - FloorPlan209
+    - FloorPlan210
+    - FloorPlan211
+    - FloorPlan212
+    - FloorPlan213
+    - FloorPlan214
+    - FloorPlan215
+    - FloorPlan216
+    - FloorPlan217
+    - FloorPlan218
+    - FloorPlan219
+    - FloorPlan220
+    - FloorPlan221
+    - FloorPlan222
+    - FloorPlan223
+    - FloorPlan224
+    - FloorPlan225
+    - FloorPlan226
+    - FloorPlan227
+    - FloorPlan228
+    - FloorPlan229
+    - FloorPlan230
+    - FloorPlan301
+    - FloorPlan302
+    - FloorPlan303
+    - FloorPlan304
+    - FloorPlan305
+    - FloorPlan306
+    - FloorPlan307
+    - FloorPlan308
+    - FloorPlan309
+    - FloorPlan310
+    - FloorPlan311
+    - FloorPlan312
+    - FloorPlan313
+    - FloorPlan314
+    - FloorPlan315
+    - FloorPlan316
+    - FloorPlan317
+    - FloorPlan318
+    - FloorPlan319
+    - FloorPlan320
+    - FloorPlan321
+    - FloorPlan322
+    - FloorPlan323
+    - FloorPlan324
+    - FloorPlan325
+    - FloorPlan326
+    - FloorPlan327
+    - FloorPlan328
+    - FloorPlan329
+    - FloorPlan330
+    - FloorPlan401
+    - FloorPlan402
+    - FloorPlan403
+    - FloorPlan404
+    - FloorPlan405
+    - FloorPlan406
+    - FloorPlan407
+    - FloorPlan408
+    - FloorPlan409
+    - FloorPlan410
+    - FloorPlan411
+    - FloorPlan412
+    - FloorPlan413
+    - FloorPlan414
+    - FloorPlan415
+    - FloorPlan416
+    - FloorPlan417
+    - FloorPlan418
+    - FloorPlan419
+    - FloorPlan420
+    - FloorPlan421
+    - FloorPlan422
+    - FloorPlan423
+    - FloorPlan424
+    - FloorPlan425
+    - FloorPlan426
+    - FloorPlan427
+    - FloorPlan428
+    - FloorPlan429
+    - FloorPlan430
+
+runtime:
+  force_action: true
+  highlight_alpha: 0.90
+  video_codec: libx264
+  profile_cache: true

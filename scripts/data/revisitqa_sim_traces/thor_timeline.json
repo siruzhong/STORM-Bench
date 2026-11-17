@@ -1,0 +1,2130 @@
+{
+  "RevisitQA_thor_01": {
+    "source_episode": "RevisitQA_FloorPlan12_seed31860871_70c64e15bcaf",
+    "rollout_dir": "benchgen_four_scene_28_20260820_153528/kitchen/rollouts/run_20260820_153529/00006_FloorPlan12_seed31860871",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Bread",
+        "t": 3.61,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Apple",
+        "t": 9.6,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Mug",
+        "t": 15.12,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Potato",
+        "t": 21.27,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Cup",
+        "t": 27.01,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Bread",
+        "t": 33.43,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Cup",
+        "t": 39.24,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Potato",
+        "t": 45.19,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Apple",
+        "t": 51.18,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Mug",
+        "t": 56.97,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_02": {
+    "source_episode": "RevisitQA_FloorPlan13_seed26568766_f76c58b50d00",
+    "rollout_dir": "benchgen_four_scene_28_20260820_153528/kitchen/rollouts/run_20260820_153529/00003_FloorPlan13_seed26568766",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Bread",
+        "t": 3.83,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Pan",
+        "t": 9.46,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Mug",
+        "t": 15.74,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Cup",
+        "t": 21.59,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Plate",
+        "t": 27.41,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Bread",
+        "t": 32.57,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Cup",
+        "t": 38.43,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Plate",
+        "t": 44.72,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Pan",
+        "t": 50.65,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Mug",
+        "t": 56.31,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_03": {
+    "source_episode": "RevisitQA_FloorPlan19_seed21260823_ba7d9cc83fee",
+    "rollout_dir": "benchgen_four_scene_28_20260820_153528/kitchen/rollouts/run_20260820_153529/00000_FloorPlan19_seed21260823",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Lettuce",
+        "t": 3.66,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Bowl",
+        "t": 9.73,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Pan",
+        "t": 15.09,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Tomato",
+        "t": 21.4,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Cup",
+        "t": 27.04,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Tomato",
+        "t": 33.1,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Cup",
+        "t": 39.07,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Pan",
+        "t": 44.27,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Lettuce",
+        "t": 50.51,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Bowl",
+        "t": 56.27,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_04": {
+    "source_episode": "RevisitQA_FloorPlan20_seed28784616_3cfeb00d23eb",
+    "rollout_dir": "benchgen_four_scene_28_20260820_153528/kitchen/rollouts/run_20260820_153529/00005_FloorPlan20_seed28784616",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Plate",
+        "t": 3.63,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Bread",
+        "t": 9.38,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Pan",
+        "t": 15.17,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Tomato",
+        "t": 21.18,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Cup",
+        "t": 27.52,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Bread",
+        "t": 33.34,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Cup",
+        "t": 39.32,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Tomato",
+        "t": 45.25,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Pan",
+        "t": 50.67,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Plate",
+        "t": 56.68,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_05": {
+    "source_episode": "RevisitQA_FloorPlan202_seed132676713_387c8461ab48",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/living_room/rollouts/run_20260820_161659/00004_FloorPlan202_seed132676713",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Book",
+        "t": 3.58,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 9.2,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "RemoteControl",
+        "t": 14.82,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 21.21,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Box",
+        "t": 26.62,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Book",
+        "t": 32.73,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "RemoteControl",
+        "t": 38.12,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Box",
+        "t": 44.32,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 49.97,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 56.04,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_06": {
+    "source_episode": "RevisitQA_FloorPlan209_seed127584614_4c2da7e99215",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/living_room/rollouts/run_20260820_161659/00003_FloorPlan209_seed127584614",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "RemoteControl",
+        "t": 3.76,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Newspaper",
+        "t": 9.9,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 15.36,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 20.88,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Vase",
+        "t": 26.85,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "RemoteControl",
+        "t": 32.41,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Newspaper",
+        "t": 38.17,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 43.85,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 50.14,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Vase",
+        "t": 55.66,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_07": {
+    "source_episode": "RevisitQA_FloorPlan211_seed122360836_ade9dd334f1e",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/living_room/rollouts/run_20260820_161659/00001_FloorPlan211_seed122360836",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 3.83,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Newspaper",
+        "t": 9.16,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 15.02,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "CellPhone",
+        "t": 21.32,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "RemoteControl",
+        "t": 26.76,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 32.24,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "CellPhone",
+        "t": 38.53,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Newspaper",
+        "t": 44.22,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 49.9,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "RemoteControl",
+        "t": 55.58,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_08": {
+    "source_episode": "RevisitQA_FloorPlan221_seed135760887_dc1774176563",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/living_room/rollouts/run_20260820_161659/00005_FloorPlan221_seed135760887",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 3.81,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 9.31,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Box",
+        "t": 15.8,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Vase",
+        "t": 21.54,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Plate",
+        "t": 26.79,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Vase",
+        "t": 32.53,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Plate",
+        "t": 38.54,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 44.0,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Box",
+        "t": 49.86,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 56.02,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_09": {
+    "source_episode": "RevisitQA_FloorPlan222_seed138860899_854fde334bf9",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/living_room/rollouts/run_20260820_161659/00006_FloorPlan222_seed138860899",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 3.79,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 9.71,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "RemoteControl",
+        "t": 15.46,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 21.79,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Box",
+        "t": 27.7,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 33.57,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Box",
+        "t": 39.06,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "RemoteControl",
+        "t": 45.35,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 50.96,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 56.86,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_10": {
+    "source_episode": "RevisitQA_FloorPlan223_seed121260830_8ea31e19b167",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/living_room/rollouts/run_20260820_161659/00000_FloorPlan223_seed121260830",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "RemoteControl",
+        "t": 3.43,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 9.64,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 15.15,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Plate",
+        "t": 20.88,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 26.61,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 32.62,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "RemoteControl",
+        "t": 38.91,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 44.46,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 50.4,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Plate",
+        "t": 56.44,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_11": {
+    "source_episode": "RevisitQA_FloorPlan229_seed126460851_278b0d539d17",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/living_room/rollouts/run_20260820_161659/00002_FloorPlan229_seed126460851",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 3.67,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 9.15,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Statue",
+        "t": 15.06,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "CellPhone",
+        "t": 21.64,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Box",
+        "t": 26.74,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 32.93,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Box",
+        "t": 38.78,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Statue",
+        "t": 44.87,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 50.63,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "CellPhone",
+        "t": 56.3,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_12": {
+    "source_episode": "RevisitQA_FloorPlan27_seed23360832_475a45086c08",
+    "rollout_dir": "benchgen_four_scene_28_20260820_153528/kitchen/rollouts/run_20260820_153529/00001_FloorPlan27_seed23360832",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Bowl",
+        "t": 3.5,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Plate",
+        "t": 9.66,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Cup",
+        "t": 15.02,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Ladle",
+        "t": 20.89,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Bread",
+        "t": 26.92,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Cup",
+        "t": 32.11,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Ladle",
+        "t": 38.47,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Plate",
+        "t": 44.21,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Bowl",
+        "t": 50.01,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Bread",
+        "t": 55.35,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_13": {
+    "source_episode": "RevisitQA_FloorPlan28_seed27668772_e11c3fabb6a9",
+    "rollout_dir": "benchgen_four_scene_28_20260820_153528/kitchen/rollouts/run_20260820_153529/00004_FloorPlan28_seed27668772",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Cup",
+        "t": 3.43,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Pan",
+        "t": 8.98,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Lettuce",
+        "t": 15.48,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Plate",
+        "t": 21.17,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Bread",
+        "t": 27.28,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Pan",
+        "t": 33.08,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Lettuce",
+        "t": 38.95,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Plate",
+        "t": 44.06,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Cup",
+        "t": 50.55,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Bread",
+        "t": 56.21,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_14": {
+    "source_episode": "RevisitQA_FloorPlan301_seed226668783_cf244a0a61fe",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/bedroom/rollouts/run_20260820_165638/00004_FloorPlan301_seed226668783",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 3.85,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Book",
+        "t": 9.78,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "TissueBox",
+        "t": 15.42,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Mug",
+        "t": 21.49,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 26.78,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Mug",
+        "t": 32.41,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 38.73,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "TissueBox",
+        "t": 44.44,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Book",
+        "t": 50.06,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 55.71,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_15": {
+    "source_episode": "RevisitQA_FloorPlan306_seed222360843_3f20f3381e94",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/bedroom/rollouts/run_20260820_165638/00001_FloorPlan306_seed222360843",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "TeddyBear",
+        "t": 3.38,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "CellPhone",
+        "t": 9.02,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Book",
+        "t": 15.0,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 21.17,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "AlarmClock",
+        "t": 27.16,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "CellPhone",
+        "t": 32.98,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "AlarmClock",
+        "t": 38.11,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 43.87,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Book",
+        "t": 50.23,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "TeddyBear",
+        "t": 55.88,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_16": {
+    "source_episode": "RevisitQA_FloorPlan308_seed228868795_d24c7e1f0824",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/bedroom/rollouts/run_20260820_165638/00006_FloorPlan308_seed228868795",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Bowl",
+        "t": 3.41,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "AlarmClock",
+        "t": 9.48,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 15.11,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Mug",
+        "t": 21.54,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 27.08,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Mug",
+        "t": 32.79,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 38.65,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 45.12,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "AlarmClock",
+        "t": 51.11,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Bowl",
+        "t": 56.88,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_17": {
+    "source_episode": "RevisitQA_FloorPlan318_seed227768789_4ce7b2787205",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/bedroom/rollouts/run_20260820_165638/00005_FloorPlan318_seed227768789",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "AlarmClock",
+        "t": 3.32,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Book",
+        "t": 9.03,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 15.16,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 21.03,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 26.61,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 32.26,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 38.29,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Book",
+        "t": 44.13,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "AlarmClock",
+        "t": 49.2,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 55.44,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_18": {
+    "source_episode": "RevisitQA_FloorPlan327_seed224568774_8534a1b9714d",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/bedroom/rollouts/run_20260820_165638/00003_FloorPlan327_seed224568774",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "AlarmClock",
+        "t": 3.69,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Book",
+        "t": 9.33,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 15.54,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Bowl",
+        "t": 21.14,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "CellPhone",
+        "t": 27.28,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 32.53,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "CellPhone",
+        "t": 38.64,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "AlarmClock",
+        "t": 44.89,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Book",
+        "t": 50.61,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Bowl",
+        "t": 56.26,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_19": {
+    "source_episode": "RevisitQA_FloorPlan329_seed221260837_a14b5ccc7545",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/bedroom/rollouts/run_20260820_165638/00000_FloorPlan329_seed221260837",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 3.4,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Mug",
+        "t": 9.39,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Book",
+        "t": 15.39,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "AlarmClock",
+        "t": 20.81,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 27.4,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Book",
+        "t": 33.38,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 39.2,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "AlarmClock",
+        "t": 44.87,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 50.96,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Mug",
+        "t": 56.86,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_20": {
+    "source_episode": "RevisitQA_FloorPlan330_seed223460849_bdf0f992e262",
+    "rollout_dir": "benchgen_four_scene_28_20260820_161656/bedroom/rollouts/run_20260820_165638/00002_FloorPlan330_seed223460849",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 3.7,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "AlarmClock",
+        "t": 9.25,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Laptop",
+        "t": 15.18,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Pillow",
+        "t": 21.23,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Bowl",
+        "t": 26.75,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 32.88,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Bowl",
+        "t": 38.28,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Laptop",
+        "t": 44.27,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "AlarmClock",
+        "t": 50.16,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Pillow",
+        "t": 55.62,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_21": {
+    "source_episode": "RevisitQA_FloorPlan401_seed333768814_8160e000921a",
+    "rollout_dir": "benchgen_four_scene_28_20260820_173014/bathroom/rollouts/run_20260820_173017/00005_FloorPlan401_seed333768814",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "SoapBottle",
+        "t": 3.54,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Towel",
+        "t": 9.58,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 14.74,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "DishSponge",
+        "t": 21.14,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 26.9,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "disappear",
+        "obj": "PaperTowelRoll",
+        "t": 32.29,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Towel",
+        "t": 37.9,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "SoapBottle",
+        "t": 44.13,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "PaperTowelRoll",
+        "t": 49.13,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "DishSponge",
+        "t": 55.27,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_22": {
+    "source_episode": "RevisitQA_FloorPlan404_seed336860907_74dd69d72ad1",
+    "rollout_dir": "benchgen_four_scene_28_20260820_173014/bathroom/rollouts/run_20260820_173017/00006_FloorPlan404_seed336860907",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 3.66,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "TissueBox",
+        "t": 9.67,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "SoapBottle",
+        "t": 15.22,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 21.19,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "ToiletPaper",
+        "t": 26.78,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "TissueBox",
+        "t": 32.25,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 38.14,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "ToiletPaper",
+        "t": 43.83,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 49.81,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "SoapBottle",
+        "t": 55.8,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_23": {
+    "source_episode": "RevisitQA_FloorPlan406_seed323460856_96a9e1cc113f",
+    "rollout_dir": "benchgen_four_scene_28_20260820_173014/bathroom/rollouts/run_20260820_173017/00002_FloorPlan406_seed323460856",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Towel",
+        "t": 3.37,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 8.83,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Cloth",
+        "t": 15.33,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 21.18,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "appear",
+        "obj": "Cloth",
+        "t": 26.6,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "disappear",
+        "obj": "SoapBottle",
+        "t": 32.38,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "disappear",
+        "obj": "SoapBar",
+        "t": 38.45,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "SoapBottle",
+        "t": 44.15,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Towel",
+        "t": 49.46,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "SoapBar",
+        "t": 55.52,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_24": {
+    "source_episode": "RevisitQA_FloorPlan408_seed329660880_172de00670d5",
+    "rollout_dir": "benchgen_four_scene_28_20260820_173014/bathroom/rollouts/run_20260820_173017/00004_FloorPlan408_seed329660880",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Plunger",
+        "t": 3.45,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 9.71,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Towel",
+        "t": 14.93,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 20.73,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "SoapBar",
+        "t": 27.16,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Towel",
+        "t": 32.88,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 37.96,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "SoapBar",
+        "t": 44.39,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 49.84,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Plunger",
+        "t": 55.86,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_25": {
+    "source_episode": "RevisitQA_FloorPlan410_seed320260841_dafa37915fbe",
+    "rollout_dir": "benchgen_four_scene_28_20260820_173014/bathroom/rollouts/run_20260820_173017/00000_FloorPlan410_seed320260841",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Cloth",
+        "t": 3.82,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 9.31,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "appear",
+        "obj": "Cloth",
+        "t": 15.08,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "ScrubBrush",
+        "t": 21.1,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 26.57,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "disappear",
+        "obj": "Cloth",
+        "t": 33.18,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "disappear",
+        "obj": "Towel",
+        "t": 38.97,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Cloth",
+        "t": 44.21,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Towel",
+        "t": 50.23,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "ScrubBrush",
+        "t": 56.0,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_26": {
+    "source_episode": "RevisitQA_FloorPlan422_seed321360847_fe1cbfaf72e1",
+    "rollout_dir": "benchgen_four_scene_28_20260820_173014/bathroom/rollouts/run_20260820_173017/00001_FloorPlan422_seed321360847",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Candle",
+        "t": 3.6,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "ScrubBrush",
+        "t": 9.5,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Towel",
+        "t": 14.88,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "SoapBar",
+        "t": 20.37,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "appear",
+        "obj": "Towel",
+        "t": 26.45,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "ScrubBrush",
+        "t": 31.94,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 38.43,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Candle",
+        "t": 44.23,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 49.17,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "SoapBar",
+        "t": 55.27,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_27": {
+    "source_episode": "RevisitQA_FloorPlan428_seed327576709_b5cc4bad14fd",
+    "rollout_dir": "benchgen_four_scene_28_20260820_173014/bathroom/rollouts/run_20260820_173017/00003_FloorPlan428_seed327576709",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Plunger",
+        "t": 3.57,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Towel",
+        "t": 9.21,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "HandTowel",
+        "t": 15.29,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "ScrubBrush",
+        "t": 20.94,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "appear",
+        "obj": "Towel",
+        "t": 27.37,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "ScrubBrush",
+        "t": 33.05,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "HandTowel",
+        "t": 39.18,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "disappear",
+        "obj": "Towel",
+        "t": 45.01,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Plunger",
+        "t": 50.24,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Towel",
+        "t": 56.38,
+        "observed": true
+      }
+    ]
+  },
+  "RevisitQA_thor_28": {
+    "source_episode": "RevisitQA_FloorPlan7_seed24460838_d27075e52b90",
+    "rollout_dir": "benchgen_four_scene_28_20260820_153528/kitchen/rollouts/run_20260820_153529/00002_FloorPlan7_seed24460838",
+    "events": [
+      {
+        "i": 0,
+        "type": "disappear",
+        "obj": "Kettle",
+        "t": 3.55,
+        "observed": true
+      },
+      {
+        "i": 1,
+        "type": "disappear",
+        "obj": "Mug",
+        "t": 9.67,
+        "observed": true
+      },
+      {
+        "i": 2,
+        "type": "disappear",
+        "obj": "Bread",
+        "t": 15.71,
+        "observed": true
+      },
+      {
+        "i": 3,
+        "type": "disappear",
+        "obj": "Cup",
+        "t": 21.18,
+        "observed": true
+      },
+      {
+        "i": 4,
+        "type": "disappear",
+        "obj": "Pan",
+        "t": 27.11,
+        "observed": true
+      },
+      {
+        "i": 5,
+        "type": "appear",
+        "obj": "Bread",
+        "t": 33.27,
+        "observed": true
+      },
+      {
+        "i": 6,
+        "type": "appear",
+        "obj": "Kettle",
+        "t": 38.69,
+        "observed": true
+      },
+      {
+        "i": 7,
+        "type": "appear",
+        "obj": "Cup",
+        "t": 44.79,
+        "observed": true
+      },
+      {
+        "i": 8,
+        "type": "appear",
+        "obj": "Mug",
+        "t": 50.73,
+        "observed": true
+      },
+      {
+        "i": 9,
+        "type": "appear",
+        "obj": "Pan",
+        "t": 56.35,
+        "observed": true
+      }
+    ]
+  }
+}

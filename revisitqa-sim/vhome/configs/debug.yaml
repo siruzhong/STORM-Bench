@@ -1,0 +1,20 @@
+scene: 0
+seed: 42
+room: kitchen
+character: Chars/Male1
+event_pairs: 1
+render:
+  width: 640
+  height: 480
+  fps: 20
+camera:
+  name: REAR_OVERHEAD
+  position: [0.7, 2.15, -1.7]
+  rotation: [25, 0, 0]
+  fov: 75
+evidence:
+  min_visible_pixels: 40
+  hold_seconds: 0.6
+
+debug: true
+target_classes: [dishbowl, dishwashingliquid, coffeepot, book]
